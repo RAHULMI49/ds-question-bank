@@ -1,0 +1,3796 @@
+[
+  {
+    "id": 1,
+    "question": "Which keyword is used to define a function in Python?",
+    "options": {
+      "A": "function",
+      "B": "def",
+      "C": "func",
+      "D": "define"
+    },
+    "answer": "B",
+    "explanation": "In Python, the `def` keyword is used to define a function.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 2,
+    "question": "What is the output of `print(type([]))`?",
+    "options": {
+      "A": "<class 'tuple'>",
+      "B": "<class 'list'>",
+      "C": "<class 'array'>",
+      "D": "<class 'set'>"
+    },
+    "answer": "B",
+    "explanation": "Square brackets `[]` are used to define a list in Python.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 3,
+    "question": "Which operator is used for exponentiation in Python?",
+    "options": {
+      "A": "^",
+      "B": "**",
+      "C": "exp()",
+      "D": "//"
+    },
+    "answer": "B",
+    "explanation": "The `**` operator is used for exponentiation (raising to the power of) in Python.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 4,
+    "question": "How do you comment out a single line in Python?",
+    "options": {
+      "A": "// This is a comment",
+      "B": "/* This is a comment */",
+      "C": "# This is a comment",
+      "D": "-- This is a comment"
+    },
+    "answer": "C",
+    "explanation": "In Python, the hash symbol `#` is used for single-line comments.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is an immutable data type in Python?",
+    "options": {
+      "A": "List",
+      "B": "Dictionary",
+      "C": "Tuple",
+      "D": "Set"
+    },
+    "answer": "C",
+    "explanation": "Tuples are immutable, meaning their elements cannot be changed after creation. Lists, dictionaries, and sets are mutable.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 6,
+    "question": "What is the correct way to declare a variable and assign it an integer value of 10?",
+    "options": {
+      "A": "var x = 10;",
+      "B": "int x = 10;",
+      "C": "x = 10",
+      "D": "set x to 10"
+    },
+    "answer": "C",
+    "explanation": "Python does not require explicit variable declaration or type specification. You simply assign a value.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 7,
+    "question": "Which built-in function is used to get the length of a list?",
+    "options": {
+      "A": "size()",
+      "B": "length()",
+      "C": "count()",
+      "D": "len()"
+    },
+    "answer": "D",
+    "explanation": "The `len()` function is used to get the number of items in an object, such as a list, string, or tuple.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 8,
+    "question": "What does the `break` statement do in a loop?",
+    "options": {
+      "A": "Skips the current iteration",
+      "B": "Exits the loop entirely",
+      "C": "Continues to the next loop",
+      "D": "Restarts the loop"
+    },
+    "answer": "B",
+    "explanation": "The `break` statement is used to terminate the loop immediately and transfer control to the statement following the loop.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 9,
+    "question": "Which of these is used to import modules in Python?",
+    "options": {
+      "A": "include",
+      "B": "import",
+      "C": "get",
+      "D": "require"
+    },
+    "answer": "B",
+    "explanation": "The `import` keyword is used to bring modules or packages into the current namespace.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 10,
+    "question": "What is the output of `print('hello' + 'world')`?",
+    "options": {
+      "A": "hello world",
+      "B": "helloworld",
+      "C": "hello+world",
+      "D": "Error"
+    },
+    "answer": "B",
+    "explanation": "The `+` operator concatenates strings in Python.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 11,
+    "question": "Which conditional statement is used for checking multiple conditions sequentially?",
+    "options": {
+      "A": "if",
+      "B": "else",
+      "C": "elif",
+      "D": "switch"
+    },
+    "answer": "C",
+    "explanation": "The `elif` (else if) statement allows you to check multiple conditions sequentially after an initial `if` statement.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 12,
+    "question": "What is the purpose of the `range()` function?",
+    "options": {
+      "A": "To select a random number",
+      "B": "To create a list of numbers within a specified range",
+      "C": "To find the maximum value in a list",
+      "D": "To check if a number is within a certain range"
+    },
+    "answer": "B",
+    "explanation": "The `range()` function generates a sequence of numbers, often used in `for` loops.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 13,
+    "question": "Which method is used to add an element to the end of a list?",
+    "options": {
+      "A": "add()",
+      "B": "insert()",
+      "C": "append()",
+      "D": "extend()"
+    },
+    "answer": "C",
+    "explanation": "The `append()` method adds a single element to the end of a list.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 14,
+    "question": "What is the result of `10 / 3` in Python 3?",
+    "options": {
+      "A": "3",
+      "B": "3.3333333333333335",
+      "C": "3.0",
+      "D": "Error"
+    },
+    "answer": "B",
+    "explanation": "In Python 3, the `/` operator performs float division, even if both operands are integers.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 15,
+    "question": "How do you create an empty dictionary in Python?",
+    "options": {
+      "A": "{}",
+      "B": "[]",
+      "C": "()",
+      "D": "dict()"
+    },
+    "answer": "A",
+    "explanation": "Curly braces `{}` are used to create an empty dictionary. `dict()` also works.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 16,
+    "question": "Which statement is used to handle exceptions in Python?",
+    "options": {
+      "A": "try-catch",
+      "B": "try-except",
+      "C": "error-handle",
+      "D": "catch-finally"
+    },
+    "answer": "B",
+    "explanation": "Python uses the `try` and `except` keywords for exception handling.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 17,
+    "question": "What is the purpose of the `pass` statement in Python?",
+    "options": {
+      "A": "To create an infinite loop",
+      "B": "To skip the execution of a block of code",
+      "C": "A null operation, used as a placeholder",
+      "D": "To exit a function"
+    },
+    "answer": "C",
+    "explanation": "The `pass` statement is a null operation; nothing happens when it executes. It's useful as a placeholder where a statement is syntactically required but you don't want any action.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 18,
+    "question": "Which of these is a correct way to open a file for writing in Python?",
+    "options": {
+      "A": "open('file.txt', 'r')",
+      "B": "open('file.txt', 'w')",
+      "C": "open('file.txt', 'a')",
+      "D": "open('file.txt', 'rb')"
+    },
+    "answer": "B",
+    "explanation": "The mode 'w' is used to open a file for writing. If the file exists, its content is truncated. If it doesn't exist, a new one is created.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 19,
+    "question": "What is the default data type of a number in Python without a decimal point?",
+    "options": {
+      "A": "float",
+      "B": "decimal",
+      "C": "integer",
+      "D": "long"
+    },
+    "answer": "C",
+    "explanation": "Numbers without a decimal point are considered integers in Python.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 20,
+    "question": "How do you check the version of Python installed on your system?",
+    "options": {
+      "A": "python --version",
+      "B": "python -v",
+      "C": "py_version",
+      "D": "get_python_version()"
+    },
+    "answer": "A",
+    "explanation": "You can check the Python version using `python --version` or `python -V` in the command line.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 21,
+    "question": "Which of the following creates a tuple with a single element?",
+    "options": {
+      "A": "(5)",
+      "B": "[5]",
+      "C": "(5,)",
+      "D": "{5}"
+    },
+    "answer": "C",
+    "explanation": "To create a tuple with a single element, you must include a comma after the element, e.g., `(5,)`. Without the comma, `(5)` is just the integer 5 in parentheses.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 22,
+    "question": "What is the purpose of the `else` block in a `try-except` statement?",
+    "options": {
+      "A": "It always executes, regardless of exceptions.",
+      "B": "It executes if an exception occurs.",
+      "C": "It executes if no exception occurs in the `try` block.",
+      "D": "It handles unhandled exceptions."
+    },
+    "answer": "C",
+    "explanation": "The `else` block in a `try-except` statement executes only if the code in the `try` block runs without raising any exceptions.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 23,
+    "question": "How can you remove an element from a list by its value?",
+    "options": {
+      "A": "list.delete(value)",
+      "B": "list.remove(value)",
+      "C": "list.pop(value)",
+      "D": "list.discard(value)"
+    },
+    "answer": "B",
+    "explanation": "The `remove()` method removes the first occurrence of the specified value from the list.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 24,
+    "question": "Which of the following is true about Python strings?",
+    "options": {
+      "A": "They are mutable",
+      "B": "They can be changed in place",
+      "C": "They are immutable",
+      "D": "They are stored as a list of characters"
+    },
+    "answer": "C",
+    "explanation": "Python strings are immutable, meaning you cannot change individual characters in a string; any operation that seems to change a string actually creates a new string.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 25,
+    "question": "What is the result of `bool(0)`?",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "None",
+      "D": "Error"
+    },
+    "answer": "B",
+    "explanation": "In Python, 0, `None`, empty sequences (`''`, `[]`, `()`), and empty mappings (`{}`) are considered 'falsy' values.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 26,
+    "question": "How do you convert an integer to a string in Python?",
+    "options": {
+      "A": "int_to_str(num)",
+      "B": "str(num)",
+      "C": "convert(num, string)",
+      "D": "to_string(num)"
+    },
+    "answer": "B",
+    "explanation": "The built-in `str()` function is used to convert other data types to strings.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 27,
+    "question": "What is the purpose of the `input()` function?",
+    "options": {
+      "A": "To print output to the console",
+      "B": "To read user input from the console",
+      "C": "To convert data types",
+      "D": "To define input parameters for a function"
+    },
+    "answer": "B",
+    "explanation": "The `input()` function reads a line from the input (usually the console) and returns it as a string.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 28,
+    "question": "Which logical operator returns True if both operands are true?",
+    "options": {
+      "A": "or",
+      "B": "not",
+      "C": "and",
+      "D": "xor"
+    },
+    "answer": "C",
+    "explanation": "The `and` operator returns True if both the left and right operands are True.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 29,
+    "question": "What will be the output of `print(3 * 'abc')`?",
+    "options": {
+      "A": "abcabcabc",
+      "B": "abc3",
+      "C": "Error",
+      "D": "abc abc abc"
+    },
+    "answer": "A",
+    "explanation": "The `*` operator performs string repetition when one operand is a string and the other is an integer.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 30,
+    "question": "How do you create a set in Python?",
+    "options": {
+      "A": "{}",
+      "B": "set()",
+      "C": "{1, 2, 3}",
+      "D": "All of the above (except for empty set created with {} which creates a dict)"
+    },
+    "answer": "D",
+    "explanation": "Sets can be created using curly braces with elements (e.g., `{1, 2, 3}`) or using the `set()` constructor. Note that `{}` alone creates an empty dictionary, not an empty set; use `set()` for an empty set.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 31,
+    "question": "Which built-in module provides mathematical functions like `sqrt()` and `sin()`?",
+    "options": {
+      "A": "numpy",
+      "B": "math",
+      "C": "calculations",
+      "D": "algebra"
+    },
+    "answer": "B",
+    "explanation": "The `math` module provides access to mathematical functions and constants.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 32,
+    "question": "What is the purpose of the `__init__` method in a Python class?",
+    "options": {
+      "A": "To destroy an object",
+      "B": "To define class methods",
+      "C": "To initialize new objects of the class",
+      "D": "To access private variables"
+    },
+    "answer": "C",
+    "explanation": "The `__init__` method is a constructor that is automatically called when a new object of the class is created.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 33,
+    "question": "What does `pip` stand for in Python?",
+    "options": {
+      "A": "Python Installer Program",
+      "B": "Preferred Installer Program",
+      "C": "Package Installation Protocol",
+      "D": "Program Installer for Python"
+    },
+    "answer": "B",
+    "explanation": "PIP is a recursive acronym for 'PIP Installs Packages' or 'Preferred Installer Program'. It's the standard package manager for Python.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 34,
+    "question": "Which statement is used to exit a program in Python?",
+    "options": {
+      "A": "quit()",
+      "B": "exit()",
+      "C": "sys.exit()",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "`quit()`, `exit()`, and `sys.exit()` can all be used to terminate a Python program. `sys.exit()` is generally preferred in production code as it allows specifying an exit status.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 35,
+    "question": "What is the primary use of the `with` statement in Python?",
+    "options": {
+      "A": "For loop iterations",
+      "B": "For conditional checks",
+      "C": "For resource management (e.g., file handling)",
+      "D": "For defining classes"
+    },
+    "answer": "C",
+    "explanation": "The `with` statement is used for context management, ensuring that resources (like files) are properly acquired and released, even if errors occur.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 36,
+    "question": "What is the output of `print(list('hello'))`?",
+    "options": {
+      "A": "['h', 'e', 'l', 'l', 'o']",
+      "B": "['hello']",
+      "C": "h e l l o",
+      "D": "Error"
+    },
+    "answer": "A",
+    "explanation": "The `list()` constructor, when given an iterable (like a string), creates a list of its elements.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 37,
+    "question": "Which of these is a valid way to create a multi-line string?",
+    "options": {
+      "A": "`Line 1\nLine 2`",
+      "B": "'Line 1\\nLine 2'",
+      "C": "\"\"\"Line 1\nLine 2\"\"\"",
+      "D": "All of the above"
+    },
+    "answer": "C",
+    "explanation": "Triple quotes (`'''` or `\"\"\"`) are used to define multi-line strings in Python.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 38,
+    "question": "What does `None` represent in Python?",
+    "options": {
+      "A": "An empty string",
+      "B": "The integer 0",
+      "C": "The absence of a value",
+      "D": "An error condition"
+    },
+    "answer": "C",
+    "explanation": "`None` is a special constant in Python that represents the absence of a value or a null value.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 39,
+    "question": "Which comparison operator means 'not equal to'?",
+    "options": {
+      "A": "==",
+      "B": "!=",
+      "C": "<>",
+      "D": "><"
+    },
+    "answer": "B",
+    "explanation": "The `!=` operator checks if two values are not equal.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 40,
+    "question": "What is the output of `len('Python')`?",
+    "options": {
+      "A": "6",
+      "B": "5",
+      "C": "7",
+      "D": "Error"
+    },
+    "answer": "A",
+    "explanation": "The `len()` function returns the number of characters in a string.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 41,
+    "question": "What is the purpose of the `elif` keyword?",
+    "options": {
+      "A": "To define an else block without an if",
+      "B": "To handle multiple conditions sequentially after an initial if",
+      "C": "To create a loop that runs indefinitely",
+      "D": "To specify a final block of code to execute"
+    },
+    "answer": "B",
+    "explanation": "`elif` (short for 'else if') is used to check multiple conditions in sequence, after an initial `if` statement.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 42,
+    "question": "Which loop is guaranteed to execute at least once?",
+    "options": {
+      "A": "for loop",
+      "B": "while loop",
+      "C": "do-while loop (not in Python)",
+      "D": "None of the above"
+    },
+    "answer": "D",
+    "explanation": "Python does not have a `do-while` loop. Both `for` and `while` loops might not execute if their conditions are initially false or iterables are empty.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 43,
+    "question": "What does `x += 5` mean in Python?",
+    "options": {
+      "A": "x = x - 5",
+      "B": "x = x + 5",
+      "C": "x = 5",
+      "D": "x = x * 5"
+    },
+    "answer": "B",
+    "explanation": "`+=` is an augmented assignment operator, equivalent to `x = x + 5`.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 44,
+    "question": "Which of these is a correct way to get user input as an integer?",
+    "options": {
+      "A": "num = input()",
+      "B": "num = int(input())",
+      "C": "num = input_int()",
+      "D": "num = get.int_input()"
+    },
+    "answer": "B",
+    "explanation": "The `input()` function returns a string, so you need to explicitly convert it to an integer using `int()`.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 45,
+    "question": "What is the output of `print(5 == 5.0)`?",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "Error",
+      "D": "None"
+    },
+    "answer": "A",
+    "explanation": "Python's `==` operator compares the values, and integer 5 is numerically equal to float 5.0.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 46,
+    "question": "How do you check if an item exists in a list?",
+    "options": {
+      "A": "list.contains(item)",
+      "B": "item in list",
+      "C": "list.has(item)",
+      "D": "list.find(item)"
+    },
+    "answer": "B",
+    "explanation": "The `in` operator is used to check for membership in a sequence (list, tuple, string, set, dictionary keys).",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 47,
+    "question": "What is the purpose of docstrings in Python?",
+    "options": {
+      "A": "To add comments to the code",
+      "B": "To define multi-line strings",
+      "C": "To provide documentation for modules, functions, classes, or methods",
+      "D": "To indicate the start of a new code block"
+    },
+    "answer": "C",
+    "explanation": "Docstrings are multi-line strings enclosed in triple quotes (`'''` or `\"\"\"`) used to document functions, classes, modules, etc.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 48,
+    "question": "Which statement is used to define an empty function (a function that does nothing)?",
+    "options": {
+      "A": "empty",
+      "B": "null",
+      "C": "pass",
+      "D": "None"
+    },
+    "answer": "C",
+    "explanation": "The `pass` statement is a null operation; when it is executed, nothing happens. It is useful as a placeholder when a statement is syntactically required, but you don't want any code to execute.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 49,
+    "question": "What is the file extension for Python source code files?",
+    "options": {
+      "A": ".pyt",
+      "B": ".py",
+      "C": ".p",
+      "D": ".pyc"
+    },
+    "answer": "B",
+    "explanation": "Python source code files typically have the `.py` extension.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 50,
+    "question": "Which data structure is ordered, mutable, and allows duplicate members?",
+    "options": {
+      "A": "Tuple",
+      "B": "Set",
+      "C": "Dictionary",
+      "D": "List"
+    },
+    "answer": "D",
+    "explanation": "Lists are ordered, mutable (changeable), and allow duplicate elements.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 51,
+    "question": "What is the output of `print('Python'[2:5])`?",
+    "options": {
+      "A": "tho",
+      "B": "yth",
+      "C": "pyt",
+      "D": "tho "
+    },
+    "answer": "A",
+    "explanation": "String slicing `[start:end]` extracts characters from the start index up to (but not including) the end index. 'P'(0) 'y'(1) 't'(2) 'h'(3) 'o'(4) 'n'(5). So `[2:5]` gives 'tho'.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 52,
+    "question": "Which of the following is NOT a valid way to unpack a tuple?",
+    "options": {
+      "A": "a, b = (1, 2)",
+      "B": "a, *b = (1, 2, 3, 4)",
+      "C": "(a, b) = [1, 2]",
+      "D": "a, b, c = (1, 2)"
+    },
+    "answer": "D",
+    "explanation": "To unpack, the number of variables on the left must match the number of elements in the tuple/list. In option D, there are 3 variables for 2 elements, which will raise a `ValueError`.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 53,
+    "question": "What is the purpose of `*args` and `**kwargs` in function definitions?",
+    "options": {
+      "A": "To define global variables",
+      "B": "To handle command-line arguments",
+      "C": "To pass a variable number of non-keyword and keyword arguments, respectively",
+      "D": "To specify default values for parameters"
+    },
+    "answer": "C",
+    "explanation": "`*args` allows a function to accept an arbitrary number of positional arguments, while `**kwargs` allows it to accept an arbitrary number of keyword arguments.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 54,
+    "question": "Consider the code: `x = 10`. `del x`. What happens if you try to `print(x)` after this?",
+    "options": {
+      "A": "10",
+      "B": "None",
+      "C": "NameError",
+      "D": "SyntaxError"
+    },
+    "answer": "C",
+    "explanation": "The `del` statement deletes the name `x` from the namespace. After `del x`, `x` is no longer defined, so attempting to print it will raise a `NameError`.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 55,
+    "question": "Which method is used to remove and return an element from a specific position in a list?",
+    "options": {
+      "A": "remove()",
+      "B": "pop(index)",
+      "C": "delete(index)",
+      "D": "discard(index)"
+    },
+    "answer": "B",
+    "explanation": "The `pop(index)` method removes the item at the given index from the list and returns it. If no index is specified, it removes and returns the last item.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 56,
+    "question": "What is a 'decorator' in Python?",
+    "options": {
+      "A": "A function that modifies the behavior of a class",
+      "B": "A function that takes another function as an argument and extends its behavior without explicitly modifying it",
+      "C": "A special type of loop",
+      "D": "A way to define constants"
+    },
+    "answer": "B",
+    "explanation": "A decorator is a design pattern in Python that allows you to add new functionality to an existing object without modifying its structure.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 57,
+    "question": "What is the output of the following code?\n```python\nlist1 = [1, 2, 3]\nlist2 = list1\nlist2.append(4)\nprint(list1)\n```",
+    "options": {
+      "A": "[1, 2, 3]",
+      "B": "[1, 2, 3, 4]",
+      "C": "Error",
+      "D": "None"
+    },
+    "answer": "B",
+    "explanation": "When `list2 = list1` is executed, `list2` does not become a copy of `list1`; instead, both variables refer to the *same* list object in memory. Therefore, modifying `list2` also affects `list1`.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 58,
+    "question": "Which of the following statements about global and local variables in Python is true?",
+    "options": {
+      "A": "A local variable can be directly modified inside a function without using `global`.",
+      "B": "A global variable can be accessed but not modified inside a function unless declared with `global`.",
+      "C": "All variables defined inside a function are global by default.",
+      "D": "The `global` keyword is used to create a new global variable."
+    },
+    "answer": "B",
+    "explanation": "If you just reference a global variable inside a function, Python will look for it in the global scope. However, if you try to assign a new value to it, Python assumes you're creating a new local variable unless you explicitly use the `global` keyword.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 59,
+    "question": "What is a generator in Python?",
+    "options": {
+      "A": "A function that creates a class",
+      "B": "A function that returns a single value after performing calculations",
+      "C": "A function that returns an iterator that yields one item at a time, saving memory",
+      "D": "A built-in module for generating random numbers"
+    },
+    "answer": "C",
+    "explanation": "A generator is a function that contains one or more `yield` statements. When called, it returns an iterator that produces a sequence of results on demand, making it memory efficient for large sequences.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 60,
+    "question": "What is the correct way to sort a list in descending order?",
+    "options": {
+      "A": "list.sort(descending=True)",
+      "B": "sorted(list, reverse=True)",
+      "C": "list.reverse_sort()",
+      "D": "Both A and B"
+    },
+    "answer": "B",
+    "explanation": "`list.sort(reverse=True)` sorts the list in place, while `sorted(list, reverse=True)` returns a new sorted list without modifying the original.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 61,
+    "question": "What is list comprehension in Python?",
+    "options": {
+      "A": "A way to perform complex arithmetic operations on lists",
+      "B": "A concise way to create lists from existing iterables based on certain conditions",
+      "C": "A method for compressing lists for memory efficiency",
+      "D": "A technique for converting lists to tuples"
+    },
+    "answer": "B",
+    "explanation": "List comprehension provides a compact syntax for creating a new list by applying an expression to each item in an existing iterable and, optionally, filtering the items.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 62,
+    "question": "What is the output of `print('{} {} {}'.format('Python', 'is', 'fun'))`?",
+    "options": {
+      "A": "Python is fun",
+      "B": "{Python} {is} {fun}",
+      "C": "Error",
+      "D": "Pythonisfun"
+    },
+    "answer": "A",
+    "explanation": "The `format()` method is used for string formatting, replacing placeholders `{}` with provided arguments.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 63,
+    "question": "Which of these is used to define an abstract method in Python?",
+    "options": {
+      "A": "Using `pass` in the method body",
+      "B": "Decorating the method with `@abstractmethod` from `abc` module",
+      "C": "Declaring it with `abstract def method_name():`",
+      "D": "Abstract methods are not supported in Python"
+    },
+    "answer": "B",
+    "explanation": "Python's `abc` (Abstract Base Classes) module provides `@abstractmethod` decorator to declare abstract methods in abstract base classes.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 64,
+    "question": "What is the purpose of the `super()` function in Python classes?",
+    "options": {
+      "A": "To call a method of the current instance's class",
+      "B": "To call a method from the object's parent (superclass)",
+      "C": "To create a new instance of the current class",
+      "D": "To check if an object is an instance of a class"
+    },
+    "answer": "B",
+    "explanation": "The `super()` function allows you to call a method or access an attribute from a parent (superclass) or sibling class.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 65,
+    "question": "What is a closure in Python?",
+    "options": {
+      "A": "A function that has finished its execution",
+      "B": "A function object that remembers values in its enclosing scope even if those values are not present in memory",
+      "C": "A method to close file handlers",
+      "D": "A type of exception handling"
+    },
+    "answer": "B",
+    "explanation": "A closure is a nested function that remembers and has access to its enclosing scope's variables even after the enclosing function has finished execution.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 66,
+    "question": "Which of the following is true regarding Python's GIL (Global Interpreter Lock)?",
+    "options": {
+      "A": "It allows multiple threads to execute Python bytecodes in parallel on multiple CPU cores.",
+      "B": "It prevents multiple threads from executing Python bytecodes in parallel on multiple CPU cores.",
+      "C": "It is only present in CPython, not other Python implementations.",
+      "D": "It primarily affects I/O-bound operations."
+    },
+    "answer": "B",
+    "explanation": "The GIL is a mutex that protects access to Python objects, preventing multiple native threads from executing Python bytecodes at once. This means even on multi-core processors, only one thread can execute Python bytecode at a time.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 67,
+    "question": "How do you correctly raise a custom exception in Python?",
+    "options": {
+      "A": "throw MyException('message')",
+      "B": "create MyException('message')",
+      "C": "raise MyException('message')",
+      "D": "except MyException('message')"
+    },
+    "answer": "C",
+    "explanation": "The `raise` keyword is used to explicitly throw an exception.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 68,
+    "question": "What is the purpose of the `__call__` method in a Python class?",
+    "options": {
+      "A": "It is invoked when an instance of the class is called as a function.",
+      "B": "It is used for string representation of the object.",
+      "C": "It is automatically called when an object is destroyed.",
+      "D": "It defines how objects of the class should be compared."
+    },
+    "answer": "A",
+    "explanation": "If a class implements the `__call__` method, instances of that class can be called as if they were functions.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 69,
+    "question": "Which module would you use for working with dates and times in Python?",
+    "options": {
+      "A": "time_utils",
+      "B": "calendar",
+      "C": "datetime",
+      "D": "date_time"
+    },
+    "answer": "C",
+    "explanation": "The `datetime` module supplies classes for manipulating dates and times.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 70,
+    "question": "What is the result of `print([1, 2, 3] * 2)`?",
+    "options": {
+      "A": "[1, 2, 3, 1, 2, 3]",
+      "B": "[2, 4, 6]",
+      "C": "[[1, 2, 3], [1, 2, 3]]",
+      "D": "Error"
+    },
+    "answer": "A",
+    "explanation": "Multiplying a list by an integer `n` creates a new list containing `n` shallow copies of the original list's elements.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 71,
+    "question": "What is the primary difference between `is` and `==` operators in Python?",
+    "options": {
+      "A": "`is` compares values, `==` compares identities.",
+      "B": "`is` compares identities, `==` compares values.",
+      "C": "They are interchangeable and always yield the same result.",
+      "D": "`is` is used for numbers, `==` for strings."
+    },
+    "answer": "B",
+    "explanation": "The `is` operator checks if two variables refer to the *same object* in memory (identity), while `==` checks if the *values* of two objects are equal.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 72,
+    "question": "What is a 'list comprehension' in Python?",
+    "options": {
+      "A": "A method to calculate the sum of list elements.",
+      "B": "A concise way to create new lists from existing iterables.",
+      "C": "A technique to flatten nested lists.",
+      "D": "A function that compresses a list to save memory."
+    },
+    "answer": "B",
+    "explanation": "List comprehensions provide a compact way to create a new list from an existing sequence (like a list, tuple, or string) based on some criteria or transformation.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 73,
+    "question": "What will be the output of the following code?\n```python\nd = {'a': 1, 'b': 2, 'c': 3}\nprint(d.get('d', 0))\n```",
+    "options": {
+      "A": "None",
+      "B": "Error",
+      "C": "0",
+      "D": "KeyError"
+    },
+    "answer": "C",
+    "explanation": "The `get()` method of dictionaries allows you to specify a default value (0 in this case) to return if the key is not found, instead of raising a `KeyError`.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 74,
+    "question": "Which of these methods modifies the original string in place?",
+    "options": {
+      "A": "string.upper()",
+      "B": "string.replace()",
+      "C": "string.strip()",
+      "D": "None of the above"
+    },
+    "answer": "D",
+    "explanation": "Strings in Python are immutable. All string methods return a new string with the modifications, leaving the original string unchanged.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 75,
+    "question": "What does the `yield` keyword do in Python?",
+    "options": {
+      "A": "It pauses a function and saves its state, allowing it to resume later.",
+      "B": "It immediately exits a function.",
+      "C": "It raises an exception.",
+      "D": "It declares a global variable."
+    },
+    "answer": "A",
+    "explanation": "The `yield` keyword is used in generator functions. When `yield` is encountered, the function's state is frozen, and the yielded value is returned. The function can then be resumed from where it left off.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 76,
+    "question": "Which type of error occurs when Python code is syntactically correct but results in an error during execution?",
+    "options": {
+      "A": "SyntaxError",
+      "B": "IndentationError",
+      "C": "RuntimeError",
+      "D": "Logical Error"
+    },
+    "answer": "C",
+    "explanation": "Runtime errors (or exceptions) occur when the program is syntactically correct but encounters an issue during execution (e.g., `NameError`, `TypeError`, `ZeroDivisionError`). Logical errors produce incorrect output but don't stop execution.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 77,
+    "question": "What is the correct way to define a static method in a Python class?",
+    "options": {
+      "A": "Using `classmethod` decorator",
+      "B": "Using `staticmethod` decorator",
+      "C": "By defining a function outside the class",
+      "D": "Static methods are not supported"
+    },
+    "answer": "B",
+    "explanation": "The `@staticmethod` decorator is used to define a static method. Static methods do not receive the instance (`self`) or the class (`cls`) as their first argument.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 78,
+    "question": "What is a 'dunder method' in Python?",
+    "options": {
+      "A": "A method that is deprecated and should not be used.",
+      "B": "A method used for debugging purposes only.",
+      "C": "A special method (e.g., `__init__`, `__str__`) with double underscores, used for operator overloading or implementing built-in behaviors.",
+      "D": "A method that is only accessible within the class it's defined in."
+    },
+    "answer": "C",
+    "explanation": "Dunder methods (short for 'double underscore methods') are special methods in Python that allow you to define how objects of your class behave with built-in operations and functions.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 79,
+    "question": "How do you handle multiple specific exceptions in a single `except` block?",
+    "options": {
+      "A": "except (TypeError, ValueError):",
+      "B": "except TypeError or ValueError:",
+      "C": "except TypeError, ValueError:",
+      "D": "except [TypeError, ValueError]:"
+    },
+    "answer": "A",
+    "explanation": "To catch multiple specific exceptions in one `except` block, list them as a tuple `(Exception1, Exception2)`.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 80,
+    "question": "What is the output of `float('3.14') + int('2')`?",
+    "options": {
+      "A": "5.14",
+      "B": "5",
+      "C": "3.142",
+      "D": "Error"
+    },
+    "answer": "A",
+    "explanation": "The string '3.14' is converted to a float 3.14, and the string '2' to an integer 2. Their sum is 5.14.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 81,
+    "question": "Which of these is the most Pythonic way to swap the values of two variables `a` and `b`?",
+    "options": {
+      "A": "temp = a; a = b; b = temp",
+      "B": "a, b = b, a",
+      "C": "a = a ^ b; b = a ^ b; a = a ^ b",
+      "D": "swap(a, b)"
+    },
+    "answer": "B",
+    "explanation": "Python allows direct simultaneous assignment, making `a, b = b, a` a concise and idiomatic way to swap variable values.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 82,
+    "question": "What does `sys.path` contain?",
+    "options": {
+      "A": "The current working directory.",
+      "B": "A list of directories where the Python interpreter searches for modules.",
+      "C": "The path to the Python executable.",
+      "D": "All installed Python packages."
+    },
+    "answer": "B",
+    "explanation": "`sys.path` is a list of strings that specifies the search path for modules. When you `import` a module, Python looks for it in these directories.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 83,
+    "question": "What is the correct way to make a shallow copy of a list `my_list`?",
+    "options": {
+      "A": "new_list = my_list",
+      "B": "new_list = my_list.copy()",
+      "C": "new_list = list(my_list)",
+      "D": "Both B and C"
+    },
+    "answer": "D",
+    "explanation": "Both `my_list.copy()` and `list(my_list)` create a shallow copy of the list. `new_list = my_list` creates a reference, not a copy.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 84,
+    "question": "What is the purpose of the `collections.Counter` class?",
+    "options": {
+      "A": "To count the number of elements in a list.",
+      "B": "To create an ordered dictionary.",
+      "C": "To count hashable objects and return a dictionary-like object where keys are elements and values are their counts.",
+      "D": "To perform arithmetic operations on collections."
+    },
+    "answer": "C",
+    "explanation": "`collections.Counter` is a subclass of `dict` that is specifically designed for counting hashable objects. It's useful for frequency counts.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 85,
+    "question": "What does the `__slots__` attribute do in a Python class?",
+    "options": {
+      "A": "It automatically generates getters and setters for attributes.",
+      "B": "It declares a fixed set of attributes for instances, saving memory and potentially speeding up attribute access.",
+      "C": "It makes all instance attributes private.",
+      "D": "It defines the order in which attributes are accessed."
+    },
+    "answer": "B",
+    "explanation": "`__slots__` tells Python not to use a dictionary to store instance attributes, but to allocate a fixed amount of space for a small number of attributes. This can save memory and improve performance.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 86,
+    "question": "What is the output of `print({}.fromkeys(['a', 'b'], 10))`?",
+    "options": {
+      "A": "{'a': None, 'b': None}",
+      "B": "{'a': 10, 'b': 10}",
+      "C": "{}",
+      "D": "Error"
+    },
+    "answer": "B",
+    "explanation": "The `fromkeys()` method creates a new dictionary with keys from an iterable and values set to a specified default (or `None` if not provided).",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 87,
+    "question": "Which of the following methods should you override to define custom behavior for adding two objects (`+` operator)?",
+    "options": {
+      "A": "`__add__`",
+      "B": "`__plus__`",
+      "C": "`add()`",
+      "D": "`operator_add()`"
+    },
+    "answer": "A",
+    "explanation": "The `__add__` dunder method is used for operator overloading of the `+` operator.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 88,
+    "question": "What is the output of `sum(range(1, 5))`?",
+    "options": {
+      "A": "15",
+      "B": "10",
+      "C": "Error",
+      "D": "Returns a generator"
+    },
+    "answer": "B",
+    "explanation": "`range(1, 5)` generates numbers 1, 2, 3, 4. The `sum()` function adds them up: $1+2+3+4 = 10$.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 89,
+    "question": "Which module allows you to work with regular expressions in Python?",
+    "options": {
+      "A": "regex",
+      "B": "re",
+      "C": "pattern",
+      "D": "regexp"
+    },
+    "answer": "B",
+    "explanation": "The `re` module provides regular expression operations.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 90,
+    "question": "What is the purpose of the `map()` function?",
+    "options": {
+      "A": "To create a dictionary from two lists",
+      "B": "To apply a given function to all items in an iterable and return an iterator of the results",
+      "C": "To combine two lists into one",
+      "D": "To sort a list of elements"
+    },
+    "answer": "B",
+    "explanation": "The `map()` function applies a specified function to each item of an iterable (or iterables) and returns an iterator that yields the results.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 91,
+    "question": "What is the output of `[i for i in range(5) if i % 2 == 0]`?",
+    "options": {
+      "A": "[0, 1, 2, 3, 4]",
+      "B": "[1, 3]",
+      "C": "[0, 2, 4]",
+      "D": "[]"
+    },
+    "answer": "C",
+    "explanation": "This is a list comprehension. It iterates from 0 to 4 (exclusive). `i % 2 == 0` filters for even numbers. So, 0, 2, 4 are included.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 92,
+    "question": "Which of the following is the most efficient way to concatenate a large number of strings in Python?",
+    "options": {
+      "A": "Using the `+` operator repeatedly",
+      "B": "Using f-strings",
+      "C": "Using `str.join(list_of_strings)`",
+      "D": "Using `str.format()`"
+    },
+    "answer": "C",
+    "explanation": "For concatenating many strings, `str.join()` is significantly more efficient than repeated `+` operations because it avoids creating multiple intermediate string objects.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 93,
+    "question": "What is the difference between `__str__` and `__repr__` methods?",
+    "options": {
+      "A": "`__str__` is for informal string representation for end-users, `__repr__` is for unambiguous representation for developers.",
+      "B": "`__repr__` is called by `print()`, `__str__` is for debugging.",
+      "C": "They are identical and serve the same purpose.",
+      "D": "Only `__str__` is a dunder method."
+    },
+    "answer": "A",
+    "explanation": "`__str__` is invoked by `str()` and `print()`, providing a human-readable string. `__repr__` is invoked by `repr()` (and implicitly when an object is displayed in interactive mode), providing an 'official' or unambiguous string representation that ideally could be used to recreate the object.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 94,
+    "question": "What does the `nonlocal` keyword do in Python?",
+    "options": {
+      "A": "Declares a variable that can be accessed globally.",
+      "B": "Declares a variable that can only be accessed within the current function.",
+      "C": "Allows modification of variables in an enclosing (but not global) scope.",
+      "D": "Prevents a variable from being modified."
+    },
+    "answer": "C",
+    "explanation": "The `nonlocal` keyword is used in nested functions to refer to variables in an outer (but not global) scope, allowing them to be modified.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 95,
+    "question": "Which of the following is an example of 'duck typing' in Python?",
+    "options": {
+      "A": "Explicitly checking the type of an object before calling a method.",
+      "B": "Assuming an object has a certain behavior if it has the necessary methods, regardless of its explicit type.",
+      "C": "Inheriting from multiple base classes.",
+      "D": "Using type hints to enforce strong typing."
+    },
+    "answer": "B",
+    "explanation": "Duck typing means 'If it walks like a duck and quacks like a duck, then it is a duck.' In Python, you focus on *what* an object can do (its methods and attributes) rather than *what* it is (its class or type).",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 96,
+    "question": "What is a 'classmethod' in Python?",
+    "options": {
+      "A": "A method that takes the instance as its first argument.",
+      "B": "A method that doesn't take any implicit first argument.",
+      "C": "A method that takes the class itself as its first argument (conventionally `cls`).",
+      "D": "A method that only works with class variables."
+    },
+    "answer": "C",
+    "explanation": "A classmethod is a method bound to the class and receives the class itself (`cls`) as its first argument, rather than the instance (`self`). It can modify class state.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 97,
+    "question": "What will be the value of `x` after the following code executes?\n```python\nx = 1\ndef func():\n    x = 2\n    print(x)\nfunc()\nprint(x)\n```",
+    "options": {
+      "A": "2, 2",
+      "B": "2, 1",
+      "C": "1, 2",
+      "D": "1, 1"
+    },
+    "answer": "B",
+    "explanation": "The `x = 2` inside `func()` creates a new local variable `x`. It does not modify the global `x`. So, `func()` prints its local `x` (2), and then the global `x` (1) is printed.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 98,
+    "question": "Which built-in function can be used to execute a string as a Python expression?",
+    "options": {
+      "A": "run()",
+      "B": "execute()",
+      "C": "eval()",
+      "D": "interpret()"
+    },
+    "answer": "C",
+    "explanation": "The `eval()` function parses the expression argument and evaluates it as a Python expression.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 99,
+    "question": "What is the purpose of the `__getitem__` dunder method?",
+    "options": {
+      "A": "To define behavior for object creation.",
+      "B": "To define behavior for item access using square brackets (e.g., `obj[key]`).",
+      "C": "To define string representation of an object.",
+      "D": "To define addition operation for objects."
+    },
+    "answer": "B",
+    "explanation": "The `__getitem__` method (along with `__setitem__` and `__delitem__`) is part of Python's data model that allows objects to behave like containers (e.g., lists, dictionaries) and support item access using `[]` notation.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 100,
+    "question": "What is the correct way to check if an object `obj` is an instance of a class `MyClass`?",
+    "options": {
+      "A": "type(obj) == MyClass",
+      "B": "obj.is_instance(MyClass)",
+      "C": "isinstance(obj, MyClass)",
+      "D": "obj in MyClass"
+    },
+    "answer": "C",
+    "explanation": "The `isinstance()` function is the recommended way to check if an object is an instance of a class or a subclass thereof. `type(obj) == MyClass` doesn't account for inheritance.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 101,
+    "question": "Explain the difference between `deepcopy()` and `copy()` for nested data structures.",
+    "options": {
+      "A": "`copy()` creates a new object and recursively copies all nested objects, `deepcopy()` creates a new object and only copies references to nested objects.",
+      "B": "`copy()` creates a new object and only copies references to nested objects, `deepcopy()` creates a new object and recursively copies all nested objects.",
+      "C": "Both `copy()` and `deepcopy()` behave identically for nested structures.",
+      "D": "`deepcopy()` is used for mutable objects, `copy()` for immutable objects."
+    },
+    "answer": "B",
+    "explanation": "`copy()` (shallow copy) creates a new compound object but then inserts references into it to the objects found in the original. `deepcopy()` (deep copy) creates a new compound object and then, recursively, inserts copies into it of the objects found in the original.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 102,
+    "question": "How can you make an attribute 'private' in Python, and what is the convention for it?",
+    "options": {
+      "A": "Using the `private` keyword; `private_attribute`",
+      "B": "By prefixing with a single underscore; `_attribute`",
+      "C": "By prefixing with double underscores; `__attribute` (name mangling)",
+      "D": "Python does not support private attributes."
+    },
+    "answer": "C",
+    "explanation": "Python's convention for 'private' attributes is name mangling: prefixing an attribute with double underscores (e.g., `__attribute`) makes it less accessible from outside the class by transforming its name. A single underscore `_attribute` is a convention indicating it's intended for internal use, but it's not enforced.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 103,
+    "question": "What is a metaclass in Python?",
+    "options": {
+      "A": "A class that is used to define abstract methods.",
+      "B": "A class that acts as a blueprint for other classes, defining how classes themselves are created.",
+      "C": "A class that holds global configurations.",
+      "D": "A class that uses multiple inheritance."
+    },
+    "answer": "B",
+    "explanation": "A metaclass is the 'class' of a class. While a class defines how an instance of the class is created, a metaclass defines how a class itself is created. `type` is the built-in metaclass in Python.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 104,
+    "question": "Explain the concept of 'descriptors' in Python.",
+    "options": {
+      "A": "They are used to define static methods.",
+      "B": "They are attributes whose access has been overridden by methods in the descriptor protocol (`__get__`, `__set__`, `__delete__`).",
+      "C": "They are a mechanism for dynamic method creation.",
+      "D": "They are used to serialize Python objects."
+    },
+    "answer": "B",
+    "explanation": "Descriptors are objects that implement at least one of the descriptor protocol methods (`__get__`, `__set__`, `__delete__`). They allow for customized behavior when attributes are accessed on an object (e.g., properties, methods).",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 105,
+    "question": "What is the purpose of the `functools.wraps` decorator when creating custom decorators?",
+    "options": {
+      "A": "To automatically apply the decorator to all methods in a class.",
+      "B": "To ensure the decorated function runs faster.",
+      "C": "To preserve the original function's metadata (name, docstring, etc.) after it's decorated.",
+      "D": "To convert the decorated function into a class method."
+    },
+    "answer": "C",
+    "explanation": "`functools.wraps` is used to update the wrapper function's `__name__`, `__module__`, and `__doc__` attributes to match those of the decorated function, making debugging and introspection easier.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 106,
+    "question": "Describe the 'MRO' (Method Resolution Order) in Python's multiple inheritance.",
+    "options": {
+      "A": "It specifies the order in which methods are searched in a single inheritance hierarchy.",
+      "B": "It's a depth-first search algorithm for method lookup in any inheritance.",
+      "C": "It defines the order in which base classes are searched for a method, following the C3 linearization algorithm.",
+      "D": "It determines the order of arguments in a method call."
+    },
+    "answer": "C",
+    "explanation": "MRO is the order in which Python searches for a method in a class hierarchy. For multiple inheritance, Python 2.3+ uses the C3 linearization algorithm to ensure consistency and correctness.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 107,
+    "question": "What is a 'coroutine' in Python, and how is it typically implemented?",
+    "options": {
+      "A": "A standard function that returns a value.",
+      "B": "A function that can pause its execution and resume later, often using `yield from` or `await/async`.",
+      "C": "A type of multithreading using `threading` module.",
+      "D": "A process that runs in parallel with the main program."
+    },
+    "answer": "B",
+    "explanation": "Coroutines are generalizations of subroutines, allowing multiple entry points for suspending and resuming execution. In Python, they are implemented using generators with `yield from` (older) or the `async`/`await` syntax (newer and preferred for asynchronous programming).",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 108,
+    "question": "What is a 'weak reference' in Python and why would you use it?",
+    "options": {
+      "A": "A reference that can be easily garbage collected, useful for caching or observing objects without preventing their destruction.",
+      "B": "A reference that always keeps an object in memory, preventing garbage collection.",
+      "C": "A special type of pointer used for C extensions.",
+      "D": "A reference that only works for immutable objects."
+    },
+    "answer": "A",
+    "explanation": "A weak reference is a reference that doesn't prevent the referenced object from being garbage-collected. This is useful for building caches, where you don't want the cache to hold objects in memory indefinitely just because they are in the cache.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 109,
+    "question": "Explain 'context managers' and how to create a custom one.",
+    "options": {
+      "A": "They are special functions for managing HTTP requests. Created with `def context():`",
+      "B": "They are objects that define a runtime context, typically for resource management (e.g., files, locks). Created by implementing `__enter__` and `__exit__` methods or using `contextlib.contextmanager`.",
+      "C": "They are used for defining global variables. Created with `global context:`",
+      "D": "They are a type of decorator for functions."
+    },
+    "answer": "B",
+    "explanation": "Context managers allow you to allocate and release resources precisely when you want to. They are implemented by classes with `__enter__` (resource acquisition) and `__exit__` (resource release) methods, or more simply with the `contextlib.contextmanager` decorator for functions.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 110,
+    "question": "What is the 'GIL' (Global Interpreter Lock) in CPython, and how does it affect multithreading?",
+    "options": {
+      "A": "It enables true parallel execution of multiple Python threads on multi-core processors.",
+      "B": "It's a mutex that prevents multiple native threads from executing Python bytecodes at once, effectively limiting CPU-bound multithreading.",
+      "C": "It is a mechanism for distributed computing in Python.",
+      "D": "It's an optimization that caches frequently used objects."
+    },
+    "answer": "B",
+    "explanation": "The GIL is a mutex that allows only one thread to hold control of the Python interpreter at any given time. This means that even on a multi-core processor, only one thread can be actively executing Python bytecode, limiting the effectiveness of multithreading for CPU-bound tasks.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 111,
+    "question": "Consider the following code:\n```python\ndef outer_func():\n    x = 10\n    def inner_func():\n        nonlocal x\n        x = 20\n    inner_func()\n    return x\n\nprint(outer_func())\n```\nWhat is the output?",
+    "options": {
+      "A": "10",
+      "B": "20",
+      "C": "Error (SyntaxError)",
+      "D": "Error (UnboundLocalError)"
+    },
+    "answer": "B",
+    "explanation": "The `nonlocal x` statement in `inner_func` indicates that `x` refers to the `x` in the immediately enclosing scope (`outer_func`), not a new local variable. Thus, `outer_func`'s `x` is modified to 20.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 112,
+    "question": "What is the difference between an 'iterable' and an 'iterator'?",
+    "options": {
+      "A": "An iterable is an object that can be looped over; an iterator is an object with `__iter__` and `__next__` methods.",
+      "B": "An iterable is any sequence type; an iterator is only for generators.",
+      "C": "An iterable is a concrete collection; an iterator is an abstract concept.",
+      "D": "They are interchangeable terms in Python."
+    },
+    "answer": "A",
+    "explanation": "An **iterable** is an object capable of returning its members one at a time. It defines `__iter__` method (or `__getitem__`). An **iterator** is an object that represents a stream of data. It implements `__iter__` (returns itself) and `__next__` (returns the next item or raises `StopIteration`).",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 113,
+    "question": "How does Python handle memory management and garbage collection?",
+    "options": {
+      "A": "Manual memory allocation and deallocation by the programmer.",
+      "B": "Automatic garbage collection primarily using reference counting, with a cyclic garbage collector for cycles.",
+      "C": "It uses a mark-and-sweep algorithm exclusively.",
+      "D": "Memory is only freed when the program exits."
+    },
+    "answer": "B",
+    "explanation": "Python's primary garbage collection mechanism is reference counting, where objects are deallocated as soon as their reference count drops to zero. For objects involved in reference cycles, Python uses a generational cyclic garbage collector.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 114,
+    "question": "What is 'monkey patching' in Python?",
+    "options": {
+      "A": "A debugging technique to find memory leaks.",
+      "B": "Dynamically modifying or extending code (classes, modules, functions) at runtime, often at a global scope.",
+      "C": "Applying security patches to the Python interpreter.",
+      "D": "A method to optimize Python code by pre-compiling it."
+    },
+    "answer": "B",
+    "explanation": "Monkey patching refers to modifying a class or module at runtime. This can involve replacing methods, adding attributes, or changing behavior of existing code without directly modifying its source code.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 115,
+    "question": "When would you prefer using `__new__` over `__init__` in class instantiation?",
+    "options": {
+      "A": "`__new__` is always preferred for attribute initialization.",
+      "B": "When you need to control the creation of a new instance (e.g., returning an existing instance, customizing immutable types). `__init__` is for initialization.",
+      "C": "`__new__` is only for metaclasses, `__init__` for regular classes.",
+      "D": "They are mutually exclusive; you can only use one."
+    },
+    "answer": "B",
+    "explanation": "`__new__` is a static method that is responsible for creating and returning the *new instance* of the class. `__init__` is then called to initialize that instance. You typically override `__new__` when you need to control instance creation, such as implementing singletons or working with immutable types.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 116,
+    "question": "What is a 'weak set' or 'weak dictionary' and what problem do they solve?",
+    "options": {
+      "A": "They are regular sets/dictionaries but with limited storage capacity.",
+      "B": "They are sets/dictionaries where elements/keys are held by weak references, preventing memory leaks if the referenced objects are no longer needed elsewhere.",
+      "C": "They are used for cryptographic purposes.",
+      "D": "They are slower versions of standard sets/dictionaries."
+    },
+    "answer": "B",
+    "explanation": "A weak set (from `weakref.WeakSet`) or weak dictionary (like `weakref.WeakKeyDictionary` or `WeakValueDictionary`) store their members/keys/values as weak references. This means that if an object held in the weak set/dict is no longer strongly referenced elsewhere, it can be garbage collected, preventing the set/dict from implicitly keeping objects alive.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 117,
+    "question": "How does Python handle multiple inheritance diamond problem (Dreaded Diamond of Death)?",
+    "options": {
+      "A": "It raises an error, disallowing such inheritance structures.",
+      "B": "It only inherits from the first parent class listed.",
+      "C": "It uses the C3 linearization algorithm for Method Resolution Order (MRO) to ensure a consistent and deterministic lookup.",
+      "D": "It forces the programmer to manually specify the lookup order."
+    },
+    "answer": "C",
+    "explanation": "Python resolves the diamond problem (where a class inherits from two classes that both inherit from a common ancestor) using the C3 linearization algorithm, which constructs a consistent Method Resolution Order (MRO) that respects monotonicity and local precedence.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 118,
+    "question": "What is the significance of the `async` and `await` keywords in Python?",
+    "options": {
+      "A": "They enable true multi-core parallelism for CPU-bound tasks.",
+      "B": "They are used for synchronous, blocking I/O operations.",
+      "C": "They are fundamental to defining and running coroutines for asynchronous I/O-bound programming.",
+      "D": "They are used for declaring variables that cannot be changed."
+    },
+    "answer": "C",
+    "explanation": "`async` defines a coroutine function, and `await` is used inside coroutines to pause execution until an awaitable (like an I/O operation) completes, allowing other tasks to run concurrently without blocking.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 119,
+    "question": "Explain 'type hints' (annotations) in Python. Are they enforced at runtime?",
+    "options": {
+      "A": "They enforce strict static typing at runtime, causing errors if types don't match.",
+      "B": "They are purely for documentation and static analysis tools, not enforced at runtime by default.",
+      "C": "They automatically convert variable types during execution.",
+      "D": "They are only used in older Python versions."
+    },
+    "answer": "B",
+    "explanation": "Type hints (PEP 484) are syntax to indicate the expected types of variables, function arguments, and return values. They are used by static type checkers (like MyPy) and IDEs for code analysis, but Python's runtime interpreter generally ignores them, meaning they are not enforced at runtime by default.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 120,
+    "question": "What is the purpose of the `collections.namedtuple` class?",
+    "options": {
+      "A": "To create a list of tuples.",
+      "B": "To create tuple subclasses with named fields, making code more readable and self-documenting.",
+      "C": "To define immutable dictionaries.",
+      "D": "To sort tuples based on specific fields."
+    },
+    "answer": "B",
+    "explanation": "`namedtuple` creates tuple-like objects that have fields accessible by lookup (like dictionaries) but are still immutable and iterable like tuples. They make code more readable by allowing field access by name instead of index.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 121,
+    "question": "What is a 'f-string' and when was it introduced?",
+    "options": {
+      "A": "A format for file I/O operations, introduced in Python 3.5.",
+      "B": "A way to define formatted string literals using an 'f' prefix, introduced in Python 3.6.",
+      "C": "A string type specifically for functional programming, introduced in Python 3.0.",
+      "D": "A string that is automatically compressed, introduced in Python 3.8."
+    },
+    "answer": "B",
+    "explanation": "F-strings (formatted string literals) provide a concise and readable way to embed expressions inside string literals. They were introduced in Python 3.6.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 122,
+    "question": "What is the key difference between a module and a package in Python?",
+    "options": {
+      "A": "A module is a single Python file, a package is a directory containing modules and an `__init__.py` file.",
+      "B": "A module contains functions, a package contains classes.",
+      "C": "Modules are for internal use, packages are for distribution.",
+      "D": "There is no difference, the terms are interchangeable."
+    },
+    "answer": "A",
+    "explanation": "A module is a single `.py` file containing Python code. A package is a directory (folder) that contains multiple modules and a special `__init__.py` file, signifying it's a Python package.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 123,
+    "question": "Which of the following is true about Python's 'pass by object reference' mechanism?",
+    "options": {
+      "A": "Immutable objects are passed by value, mutable objects by reference.",
+      "B": "Parameters are passed by value for all data types.",
+      "C": "Parameters are passed by reference for all data types.",
+      "D": "Arguments are passed by object reference, meaning the function receives a copy of the reference to the object."
+    },
+    "answer": "D",
+    "explanation": "Python uses a 'pass by object reference' mechanism. When you pass an argument to a function, a reference to the object is passed. If the object is mutable, changes made inside the function will affect the original object. If it's immutable, reassigning the parameter inside the function won't affect the original object outside.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 124,
+    "question": "What is the purpose of the `repr()` function?",
+    "options": {
+      "A": "To convert an object into a human-readable string representation for display.",
+      "B": "To return a string representation of an object that would ideally evaluate to an object with the same value (for debugging/developer use).",
+      "C": "To check the type of an object.",
+      "D": "To get the memory address of an object."
+    },
+    "answer": "B",
+    "explanation": "`repr()` returns a string that would, ideally, evaluate to a Python object that has the same value as the object. It's intended for developers/debugging, whereas `str()` is for end-users.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 125,
+    "question": "What is the output of `(lambda x: x * 2)(5)`?",
+    "options": {
+      "A": "lambda x: x * 2",
+      "B": "10",
+      "C": "Error",
+      "D": "5"
+    },
+    "answer": "B",
+    "explanation": "This is an anonymous lambda function that multiplies its input by 2. When called with 5, it returns 10.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 126,
+    "question": "What does the `if __name__ == '__main__':` block typically do?",
+    "options": {
+      "A": "It defines a new class called `__main__`.",
+      "B": "It runs the code inside the block only when the script is imported as a module.",
+      "C": "It runs the code inside the block only when the script is executed directly.",
+      "D": "It's an optional block that doesn't affect code execution."
+    },
+    "answer": "C",
+    "explanation": "This common Python idiom ensures that the code inside the `if` block only runs when the script is executed as the main program, not when it's imported as a module into another script.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 127,
+    "question": "Which method is typically used to iterate over both keys and values in a dictionary?",
+    "options": {
+      "A": "dict.keys()",
+      "B": "dict.values()",
+      "C": "dict.items()",
+      "D": "dict.iter()"
+    },
+    "answer": "C",
+    "explanation": "The `items()` method returns a view object that displays a list of a dictionary's key-value tuple pairs.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 128,
+    "question": "What is the purpose of a virtual environment in Python?",
+    "options": {
+      "A": "To run Python code in a web browser.",
+      "B": "To create isolated Python environments, managing dependencies for different projects without conflicts.",
+      "C": "To emulate different operating systems for Python code.",
+      "D": "To speed up Python script execution."
+    },
+    "answer": "B",
+    "explanation": "Virtual environments (e.g., using `venv` or `conda`) allow you to create isolated Python installations for each project, ensuring that dependencies for one project don't conflict with those of another.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 129,
+    "question": "What is the result of the following?\n```python\na = [1, 2, 3]\nb = a\na.append(4)\nprint(b)\n```",
+    "options": {
+      "A": "[1, 2, 3]",
+      "B": "[1, 2, 3, 4]",
+      "C": "Error",
+      "D": "None"
+    },
+    "answer": "B",
+    "explanation": "When `b = a`, `b` becomes a reference to the same list object that `a` refers to. Modifying the list through `a` (appending 4) is reflected when `b` is printed.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 130,
+    "question": "How do you handle a specific error in a `try-except` block?",
+    "options": {
+      "A": "except ErrorType:",
+      "B": "catch ErrorType:",
+      "C": "handle ErrorType:",
+      "D": "except (ErrorType):"
+    },
+    "answer": "A",
+    "explanation": "You specify the exception type after the `except` keyword, e.g., `except ValueError:`, to catch only that specific error.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 131,
+    "question": "What is the purpose of the `finally` block in a `try-except` statement?",
+    "options": {
+      "A": "It executes only if an exception occurs.",
+      "B": "It executes only if no exception occurs.",
+      "C": "It always executes, regardless of whether an exception occurred or was handled.",
+      "D": "It signals the end of the program."
+    },
+    "answer": "C",
+    "explanation": "The `finally` block is guaranteed to execute, regardless of whether an exception was raised or handled within the `try` block. It's often used for cleanup operations.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 132,
+    "question": "Which of these is NOT a built-in exception in Python?",
+    "options": {
+      "A": "SyntaxError",
+      "B": "TypeError",
+      "C": "FileNotFound",
+      "D": "CustomError"
+    },
+    "answer": "D",
+    "explanation": "`CustomError` would be a user-defined exception. `FileNotFoundError` is the actual built-in exception for file-not-found cases.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 133,
+    "question": "What is a 'mixin' class in Python?",
+    "options": {
+      "A": "A class that can be instantiated directly and has its own state.",
+      "B": "A class intended to provide specific functionalities (methods) to other classes through multiple inheritance, without being meant for standalone instantiation.",
+      "C": "A class that combines data and methods into a single unit.",
+      "D": "A class used for abstract base classes only."
+    },
+    "answer": "B",
+    "explanation": "Mixins are a form of multiple inheritance where a class inherits from one 'main' base class and one or more mixin classes. Mixins provide reusable behaviors and functionalities without intending to be standalone classes or having their own state.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 134,
+    "question": "How do you achieve polymorphism in Python?",
+    "options": {
+      "A": "Only through explicit interface implementation.",
+      "B": "Mainly through 'duck typing', where objects are polymorphic if they support the same set of methods/operations.",
+      "C": "By using abstract base classes exclusively.",
+      "D": "Python does not support polymorphism."
+    },
+    "answer": "B",
+    "explanation": "Python achieves polymorphism primarily through duck typing. If different objects can perform the same operation (e.g., have the same method names), they are considered polymorphic, regardless of their explicit class hierarchy.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 135,
+    "question": "What is the purpose of the `collections.deque` class?",
+    "options": {
+      "A": "A list-like container that supports fast appends and pops from both ends.",
+      "B": "An ordered dictionary.",
+      "C": "A fixed-size array for numerical data.",
+      "D": "A queue that operates on a LIFO principle."
+    },
+    "answer": "A",
+    "explanation": "`collections.deque` (double-ended queue) is a list-like container optimized for fast appends and pops from both ends, making it efficient for implementing queues or stacks.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 136,
+    "question": "Explain the concept of 'lazy evaluation' in Python, and give an example.",
+    "options": {
+      "A": "Code is executed immediately as it's written; e.g., list comprehensions.",
+      "B": "Expressions are evaluated only when their values are needed; e.g., generators or `range()`.",
+      "C": "A debugging technique to pause execution at breakpoints.",
+      "D": "A way to defer function calls until all arguments are available."
+    },
+    "answer": "B",
+    "explanation": "Lazy evaluation (or call-by-need) is an evaluation strategy that delays the computation of a value until it is actually needed. Generators and iterators (like `range()`, `map()`, `filter()`) are prime examples, as they don't compute all values upfront but yield them one by one as requested.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 137,
+    "question": "What is the practical use of the `collections.defaultdict`?",
+    "options": {
+      "A": "To create dictionaries that are always ordered by insertion.",
+      "B": "To define dictionaries with a default value for any key not present, avoiding `KeyError`.",
+      "C": "To create dictionaries that automatically remove old items.",
+      "D": "To count the frequency of items in a list."
+    },
+    "answer": "B",
+    "explanation": "`defaultdict` is a subclass of `dict` that takes a `default_factory` argument. If a key is accessed and not found, it calls the `default_factory` to create a default value for that key, preventing `KeyError`.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 138,
+    "question": "How does Python handle memory for immutable vs. mutable objects?",
+    "options": {
+      "A": "Immutable objects are always allocated new memory on modification; mutable objects can be modified in-place.",
+      "B": "Both mutable and immutable objects are always copied on modification.",
+      "C": "Immutable objects are garbage collected immediately after use; mutable objects are not.",
+      "D": "Python uses a single memory pool for all objects, regardless of mutability."
+    },
+    "answer": "A",
+    "explanation": "When an immutable object (like a string or tuple) is 'modified', a new object is actually created in memory. For mutable objects (like lists or dictionaries), their content can be changed in-place without creating a new object, provided no new reference is assigned to the variable.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 139,
+    "question": "What is the output of the following code snippet?\n```python\ndef f(a, b=[]):\n    b.append(a)\n    return b\n\nprint(f(1))\nprint(f(2))\n```",
+    "options": {
+      "A": "[1]\n[2]",
+      "B": "[1]\n[1, 2]",
+      "C": "[1, 2]\n[1, 2]",
+      "D": "Error"
+    },
+    "answer": "B",
+    "explanation": "This is a classic Python 'gotcha'. Default arguments are evaluated *once* when the function is defined. So, `b` refers to the same list object across all calls to `f` if not explicitly overridden. `f(1)` appends 1 to `b` (now `[1]`), `f(2)` appends 2 to the *same* `b` (now `[1, 2]`).",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 140,
+    "question": "Which of the following would you use to store a collection of unique, unordered items?",
+    "options": {
+      "A": "List",
+      "B": "Tuple",
+      "C": "Set",
+      "D": "Dictionary"
+    },
+    "answer": "C",
+    "explanation": "Sets are unordered collections of unique elements. They are mutable, but their elements must be immutable.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 141,
+    "question": "What is the purpose of the `virtualenv` command?",
+    "options": {
+      "A": "To install packages globally.",
+      "B": "To create isolated Python environments.",
+      "C": "To activate a virtual environment.",
+      "D": "To uninstall Python packages."
+    },
+    "answer": "B",
+    "explanation": "`virtualenv` (or `python -m venv` in modern Python) is used to create self-contained Python environments with their own installations of Python and packages.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 142,
+    "question": "What is the output of `print(0.1 + 0.2 == 0.3)` in Python?",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "Error",
+      "D": "None"
+    },
+    "answer": "B",
+    "explanation": "Due to the nature of floating-point arithmetic in computers (using binary representation), `0.1 + 0.2` often results in a value like `0.30000000000000004`, which is not exactly `0.3`. This is a common pitfall.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 143,
+    "question": "Which of these is the correct way to make an attribute read-only (a property) in a class?",
+    "options": {
+      "A": "Using `private` keyword.",
+      "B": "Defining a getter method and prefixing the attribute with `__`.",
+      "C": "Using the `@property` decorator over a method.",
+      "D": "By assigning `const` keyword to the attribute."
+    },
+    "answer": "C",
+    "explanation": "The `@property` decorator allows you to define methods that can be accessed like attributes, giving you control over getting, setting, and deleting them, thus enabling creation of read-only properties.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 144,
+    "question": "What is the difference between `range()` and `xrange()` (in Python 2, and `range()` in Python 3)?",
+    "options": {
+      "A": "`range()` creates a list in memory; `xrange()` (or Python 3's `range()`) returns an iterator (generator).",
+      "B": "`xrange()` is faster for small ranges; `range()` for large ranges.",
+      "C": "They are identical in functionality and performance.",
+      "D": "`xrange()` is only for floating-point numbers."
+    },
+    "answer": "A",
+    "explanation": "In Python 2, `range()` created a list in memory, which could be inefficient for large ranges. `xrange()` returned a generator. In Python 3, `range()` was redesigned to behave like Python 2's `xrange()`, returning an iterator (a 'range object') instead of a full list, making it memory-efficient.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 145,
+    "question": "Which of the following is NOT a true statement about Python's generators?",
+    "options": {
+      "A": "They use the `yield` keyword.",
+      "B": "They produce all items at once and store them in memory.",
+      "C": "They can be paused and resumed.",
+      "D": "They are memory-efficient for large sequences."
+    },
+    "answer": "B",
+    "explanation": "Generators are designed for lazy evaluation; they produce items one by one on demand, not all at once, which is why they are memory-efficient.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 146,
+    "question": "What is the output of `print(type(lambda: None))`?",
+    "options": {
+      "A": "<class 'function'>",
+      "B": "<class 'NoneType'>",
+      "C": "<class 'lambda'>",
+      "D": "Error"
+    },
+    "answer": "A",
+    "explanation": "A lambda expression creates an anonymous function. In Python, both regular functions defined with `def` and lambda functions are instances of the `function` type.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 147,
+    "question": "How do you specify optional arguments with default values in a function definition?",
+    "options": {
+      "A": "def func(arg1, arg2=None):",
+      "B": "def func(arg1, optional arg2):",
+      "C": "def func(arg1, *arg2):",
+      "D": "def func(arg1, arg2):  # arg2 is optional by default"
+    },
+    "answer": "A",
+    "explanation": "Default argument values are specified using an assignment operator (`=`) after the parameter name in the function definition.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 148,
+    "question": "What is the purpose of the `os` module in Python?",
+    "options": {
+      "A": "To interact with operating system-dependent functionality.",
+      "B": "To handle mathematical operations.",
+      "C": "To create graphical user interfaces.",
+      "D": "To manage database connections."
+    },
+    "answer": "A",
+    "explanation": "The `os` module provides a way of using operating system-dependent functionality, such as reading or writing to the file system, managing processes, etc.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 149,
+    "question": "What does the `pass` statement in Python do?",
+    "options": {
+      "A": "It terminates the execution of a loop or function.",
+      "B": "It is used for skipping parts of a conditional statement.",
+      "C": "It is a null operation; nothing happens when it executes. It's a placeholder.",
+      "D": "It signals an error condition."
+    },
+    "answer": "C",
+    "explanation": "The `pass` statement is a no-op (no operation) in Python. It's often used as a placeholder in blocks of code that require a statement syntactically but where no action is desired.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 150,
+    "question": "What is the primary benefit of using `set` over `list` for checking membership (`in` operator) when dealing with large collections?",
+    "options": {
+      "A": "Sets guarantee order.",
+      "B": "Membership testing in sets is generally O(1) on average, while for lists it's O(n).",
+      "C": "Sets consume less memory than lists.",
+      "D": "Sets allow duplicate elements."
+    },
+    "answer": "B",
+    "explanation": "Sets are implemented using hash tables, which allow for very fast average-case O(1) time complexity for membership testing (`in` operator). Lists, on the other hand, require a linear scan, leading to O(n) complexity in the worst case.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 151,
+    "question": "What is the purpose of the `globals()` and `locals()` built-in functions?",
+    "options": {
+      "A": "They return lists of all global and local variables respectively.",
+      "B": "They return dictionaries representing the current global and local symbol tables.",
+      "C": "They are used for defining global and local variables.",
+      "D": "They check if a variable is global or local."
+    },
+    "answer": "B",
+    "explanation": "`globals()` returns a dictionary representing the current global symbol table. `locals()` returns a dictionary representing the current local symbol table.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 152,
+    "question": "What is the concept of 'EAFP' in Python, and what does it stand for?",
+    "options": {
+      "A": "Error-Aware Functional Programming; A style emphasizing pure functions.",
+      "B": "Easier Access, Faster Performance; An optimization principle.",
+      "C": "Easier to Ask for Forgiveness than Permission; A common Python coding style that relies on exception handling.",
+      "D": "Efficient And Fast Python; A guideline for writing performant code."
+    },
+    "answer": "C",
+    "explanation": "EAFP (Easier to Ask for Forgiveness than Permission) is a common Python coding style. It means assuming a method or attribute exists (or an operation will succeed) and handling potential errors via `try-except` blocks, rather than checking preconditions beforehand (LBYL - Look Before You Leap).",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 153,
+    "question": "What are 'metaclasses' and provide an example of their use case?",
+    "options": {
+      "A": "Classes used for type hinting. Example: `List[int]`.",
+      "B": "Classes that define how other classes are created. Example: Enforcing an interface or a certain class structure.",
+      "C": "Classes that inherit from built-in types. Example: `class MyList(list):`",
+      "D": "Classes that provide utility functions. Example: `math.sqrt()`."
+    },
+    "answer": "B",
+    "explanation": "Metaclasses are 'factories of classes'; they define the behavior of classes themselves. A common use case is to automatically register classes upon definition, or to enforce certain methods/attributes on all classes derived from a particular base class.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 154,
+    "question": "Explain the difference between `__slots__` and `__dict__` in Python classes.",
+    "options": {
+      "A": "`__dict__` is for class attributes, `__slots__` is for instance attributes.",
+      "B": "`__slots__` creates a fixed-size array for instance attributes, `__dict__` is a dynamic dictionary for instance attributes. `__slots__` saves memory.",
+      "C": "`__slots__` is used for inheritance, `__dict__` for composition.",
+      "D": "They are alternative ways to store instance attributes, with no functional difference."
+    },
+    "answer": "B",
+    "explanation": "By default, instances of classes have a `__dict__` to store their attributes dynamically. Using `__slots__` removes this `__dict__` and instead pre-allocates space for a fixed set of attributes, which can significantly reduce memory usage and slightly improve attribute access speed, especially for many small instances.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 155,
+    "question": "How do you implement a singleton design pattern in Python?",
+    "options": {
+      "A": "By making all methods static.",
+      "B": "By ensuring only one instance of a class can be created, typically by overriding `__new__` or using a module-level instance.",
+      "C": "By using a class variable to store the single instance and checking it in `__init__`.",
+      "D": "Python's GIL inherently makes all classes singletons."
+    },
+    "answer": "B",
+    "explanation": "A common way to implement a singleton is to override the `__new__` method to control instance creation, ensuring that if an instance already exists, the existing one is returned instead of creating a new one.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 156,
+    "question": "What is the purpose of the `weakref` module?",
+    "options": {
+      "A": "To create strong references that prevent garbage collection.",
+      "B": "To allow objects to be garbage collected even when there are references to them, preventing reference cycles from keeping objects alive unnecessarily.",
+      "C": "To optimize string manipulation in Python.",
+      "D": "To handle network connections that might be unstable."
+    },
+    "answer": "B",
+    "explanation": "The `weakref` module allows Python programmers to create weak references to objects. If the only remaining references to an object are weak references, garbage collection can reclaim the object, preventing memory leaks, especially with circular references.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 157,
+    "question": "Explain the concept of 'chained exceptions' in Python 3.",
+    "options": {
+      "A": "It means multiple `except` blocks are linked.",
+      "B": "It refers to an exception being re-raised in a `finally` block.",
+      "C": "It's the implicit or explicit linking of exceptions, showing that one exception was caused by or handled in response to another.",
+      "D": "It's a feature that allows one exception to trigger multiple handlers."
+    },
+    "answer": "C",
+    "explanation": "Chained exceptions (PEP 3134) allow Python to automatically 'remember' the original exception when a new exception is raised in an `except` or `finally` block. This creates a chain of exceptions that can be inspected for better debugging, indicating the root cause (`__cause__`) or explicit context (`__context__`).",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 158,
+    "question": "What is a 'type hint' and what is its primary benefit?",
+    "options": {
+      "A": "A comment that explains variable types; purely for human readability.",
+      "B": "A syntax for annotating variables, function parameters, and return types, primarily for static analysis and improved code clarity, not runtime enforcement.",
+      "C": "A mechanism for runtime type checking and conversion.",
+      "D": "A way to automatically infer data types during execution."
+    },
+    "answer": "B",
+    "explanation": "Type hints (or type annotations) allow developers to indicate the expected types of variables, function arguments, and return values. They are not enforced by the Python interpreter at runtime but are invaluable for static analysis tools (like MyPy) and IDEs to catch potential type-related errors and improve code readability.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 159,
+    "question": "How does context management using `with` statement work internally?",
+    "options": {
+      "A": "It implicitly calls `start()` and `stop()` methods.",
+      "B": "It relies on a special `handle()` method.",
+      "C": "It calls the `__enter__()` method upon entry and the `__exit__()` method upon exit, even if exceptions occur.",
+      "D": "It uses a hidden `try-except` block without user intervention."
+    },
+    "answer": "C",
+    "explanation": "When a `with` statement is executed, Python calls the `__enter__` method of the context manager object. When the block exits (either normally or due to an exception), the `__exit__` method is called to ensure resources are properly cleaned up.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 160,
+    "question": "What is 'descriptor protocol' in Python?",
+    "options": {
+      "A": "A protocol for network communication between Python programs.",
+      "B": "A set of methods (`__get__`, `__set__`, `__delete__`) that, when defined in an object, allow that object to customize attribute access of other objects.",
+      "C": "A standard for documenting Python functions and classes.",
+      "D": "A way to define interfaces for abstract base classes."
+    },
+    "answer": "B",
+    "explanation": "The descriptor protocol (`__get__`, `__set__`, `__delete__`) is a fundamental mechanism in Python that allows objects to customize how attributes are accessed. Properties, methods, static methods, and class methods are all implemented using descriptors.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 161,
+    "question": "What is the primary difference between a `property` and a `descriptor`?",
+    "options": {
+      "A": "They are different names for the same concept.",
+      "B": "A `property` is a built-in function that uses the descriptor protocol under the hood to provide a convenient way to manage attributes, while a `descriptor` is the general term for any object implementing the protocol.",
+      "C": "`property` is for class attributes, `descriptor` for instance attributes.",
+      "D": "`property` works only for read-only attributes, `descriptor` for read-write."
+    },
+    "answer": "B",
+    "explanation": "`property()` is a specific type of descriptor (a built-in one) that makes it easy to define getters, setters, and deleters for an attribute using a decorator-based syntax. A descriptor is the more general concept, referring to any object that implements the descriptor protocol (`__get__`, `__set__`, `__delete__`).",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 162,
+    "question": "How does `super()` work with multiple inheritance and the MRO?",
+    "options": {
+      "A": "It always calls the method of the direct parent class.",
+      "B": "It calls the method of the next class in the Method Resolution Order (MRO), not necessarily a direct parent.",
+      "C": "It creates a new instance of the superclass.",
+      "D": "It works only in single inheritance scenarios."
+    },
+    "answer": "B",
+    "explanation": "`super()` in Python is not about calling the direct parent. Instead, it allows you to delegate method calls to the next method in the Method Resolution Order (MRO) defined for the class, effectively enabling collaborative multiple inheritance.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 163,
+    "question": "What are 'generators' in Python and how do they differ from lists in memory usage for large datasets?",
+    "options": {
+      "A": "Generators create and store all elements in memory like lists.",
+      "B": "Generators are functions that return a list; lists are actual data structures.",
+      "C": "Generators compute and yield elements one at a time, making them memory-efficient by not storing all elements; lists store all elements in memory.",
+      "D": "Generators are faster for iteration but use more memory."
+    },
+    "answer": "C",
+    "explanation": "Generators (functions with `yield`) produce values on-the-fly, pausing execution and saving state until the next value is requested. This makes them highly memory-efficient for large datasets as they don't store the entire sequence in memory like lists do.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 164,
+    "question": "Which of these is a Pythonic way to handle resource cleanup (like closing files) even if errors occur?",
+    "options": {
+      "A": "Using a `try-except` block without `finally`.",
+      "B": "Manually calling `.close()` at the end of the script.",
+      "C": "Using the `with` statement and context managers.",
+      "D": "Relying on Python's garbage collector for immediate cleanup."
+    },
+    "answer": "C",
+    "explanation": "The `with` statement ensures that context managers (objects implementing `__enter__` and `__exit__`) handle resource acquisition and release properly, even if exceptions occur within the block, making it the most Pythonic and robust way for cleanup.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 165,
+    "question": "What is the purpose of `functools.lru_cache`?",
+    "options": {
+      "A": "To sort large lists efficiently.",
+      "B": "To create a least-recently-used cache for function call results, optimizing performance for expensive functions.",
+      "C": "To randomly select items from a list.",
+      "D": "To log function calls to a file."
+    },
+    "answer": "B",
+    "explanation": "`functools.lru_cache` is a decorator that implements a memoization technique. It stores the results of function calls in a cache, and if the same inputs are given again, it returns the cached result, avoiding re-computation, particularly useful for expensive functions with repeated calls.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 166,
+    "question": "How do you define a property in a class without using the `@property` decorator (older/less Pythonic way)?",
+    "options": {
+      "A": "By defining `get_attribute` and `set_attribute` methods.",
+      "B": "Using `attribute = Property()` syntax.",
+      "C": "By assigning `property()` built-in function to a class attribute, providing getter, setter, and deleter methods.",
+      "D": "It's not possible without the decorator in modern Python."
+    },
+    "answer": "C",
+    "explanation": "While `@property` is the modern and preferred way, you can achieve the same by directly assigning the `property()` built-in function to a class attribute, passing the getter, setter, and deleter methods as arguments: `attribute = property(fget, fset, fdel, doc)`.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 167,
+    "question": "What is a 'weak set'?",
+    "options": {
+      "A": "A set that only stores numerical values.",
+      "B": "A set that only stores immutable objects.",
+      "C": "A set that contains weak references to its elements, allowing garbage collection of elements if no other strong references exist.",
+      "D": "A set that cannot contain more than 10 elements."
+    },
+    "answer": "C",
+    "explanation": "From the `weakref` module, a `WeakSet` is a set-like collection where the contained objects are held by weak references. This means that if an object in the set is no longer strongly referenced elsewhere, it can be garbage collected, and it will automatically be removed from the weak set.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 168,
+    "question": "Which `collections` module class is best suited for maintaining a fixed-size queue where old items are automatically discarded when new ones are added?",
+    "options": {
+      "A": "`list`",
+      "B": "`collections.Queue`",
+      "C": "`collections.deque` with `maxlen`",
+      "D": "`collections.OrderedDict`"
+    },
+    "answer": "C",
+    "explanation": "The `collections.deque` (double-ended queue) class can be initialized with a `maxlen` argument. When the deque reaches its maximum length, adding new items will automatically remove items from the opposite end, making it perfect for fixed-size queues or circular buffers.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 169,
+    "question": "What is a 'memoryview' object in Python and its primary use?",
+    "options": {
+      "A": "A mutable sequence type similar to a list.",
+      "B": "A way to view the internal memory layout of a Python object.",
+      "C": "A non-copying view into the memory buffer of an object, often used for efficient manipulation of large binary data without copying.",
+      "D": "A tool for debugging memory leaks."
+    },
+    "answer": "C",
+    "explanation": "A `memoryview` object allows Python code to access the internal data of an object that supports the buffer protocol without copying. This is particularly useful for working with large binary data (like NumPy arrays, `bytes`, `bytearray`) efficiently.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 170,
+    "question": "What is the difference between `__init_subclass__` and `__new__` (when defining a class)?",
+    "options": {
+      "A": "`__init_subclass__` is called when an instance is created; `__new__` when a class is created.",
+      "B": "`__init_subclass__` is called on the base class whenever a subclass is created; `__new__` is called when an instance of the class is created (before `__init__`).",
+      "C": "They are both used for initializing instances.",
+      "D": "`__init_subclass__` is a decorator; `__new__` is a method."
+    },
+    "answer": "B",
+    "explanation": "`__init_subclass__` is a special class method (from Python 3.6+) that is called on the base class whenever a new class inherits from it. `__new__` is a static method that is responsible for creating and returning the *new instance* of the class (before `__init__` is called to initialize it).",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 171,
+    "question": "What is the primary use case for `collections.Counter`?",
+    "options": {
+      "A": "Creating lists with predefined lengths.",
+      "B": "Counting hashable objects efficiently.",
+      "C": "Implementing a stack data structure.",
+      "D": "Sorting elements in a collection."
+    },
+    "answer": "B",
+    "explanation": "`collections.Counter` is a subclass of `dict` that's specifically designed for conveniently counting hashable objects, often used for frequency analysis.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 172,
+    "question": "What is the result of `print('Python'.upper())`?",
+    "options": {
+      "A": "PYTHON",
+      "B": "Python",
+      "C": "python",
+      "D": "Error"
+    },
+    "answer": "A",
+    "explanation": "The `upper()` method returns a new string where all characters are converted to uppercase.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 173,
+    "question": "Which built-in function returns an iterator that applies a function to every item of an iterable, yielding the results?",
+    "options": {
+      "A": "filter()",
+      "B": "reduce()",
+      "C": "map()",
+      "D": "apply()"
+    },
+    "answer": "C",
+    "explanation": "The `map()` function takes a function and an iterable (or multiple iterables) as arguments and applies the function to each item, returning an iterator of the results.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 174,
+    "question": "What is a 'set comprehension'?",
+    "options": {
+      "A": "A way to perform mathematical set operations.",
+      "B": "A concise syntax for creating a new set from an iterable.",
+      "C": "A method to check for membership in a set.",
+      "D": "A technique to convert a set to a list."
+    },
+    "answer": "B",
+    "explanation": "Similar to list comprehensions, set comprehensions provide a compact way to create new sets. The syntax is `{expression for item in iterable if condition}`.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 175,
+    "question": "What is a 'named tuple' in Python?",
+    "options": {
+      "A": "A tuple that can only store strings.",
+      "B": "A tuple where elements can be accessed by name (like dictionary keys) as well as by index.",
+      "C": "A mutable tuple.",
+      "D": "A tuple that requires a name during creation."
+    },
+    "answer": "B",
+    "explanation": "From the `collections` module, `namedtuple` allows you to create tuple subclasses with named fields. This enhances readability compared to plain tuples where elements are accessed solely by numerical index.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 176,
+    "question": "What is the output of `print(max([1, 5, 2]))`?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "5",
+      "D": "Error"
+    },
+    "answer": "C",
+    "explanation": "The `max()` function returns the largest item in an iterable.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 177,
+    "question": "What does the `strip()` method do for strings?",
+    "options": {
+      "A": "Removes all spaces from the string.",
+      "B": "Removes leading and trailing whitespace characters (or specified characters) from the string.",
+      "C": "Extracts a substring from the middle.",
+      "D": "Converts the string to lowercase."
+    },
+    "answer": "B",
+    "explanation": "The `strip()` method returns a copy of the string with leading and trailing whitespace removed. You can also pass a string argument to specify which characters to remove.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 178,
+    "question": "Which of the following is true about Python's lists and arrays (from `array` module or NumPy)?",
+    "options": {
+      "A": "Lists are fixed-size; arrays are dynamic.",
+      "B": "Lists can store heterogeneous data types; arrays typically store homogeneous data types and are more memory-efficient for numerical data.",
+      "C": "Arrays are built-in; lists require an import.",
+      "D": "Lists are always faster than arrays for arithmetic operations."
+    },
+    "answer": "B",
+    "explanation": "Lists are flexible and can store elements of different types. Arrays (from `array` module or NumPy) are optimized for homogeneous numerical data, providing better memory efficiency and performance for such data.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 179,
+    "question": "What is the purpose of the `unittest` module?",
+    "options": {
+      "A": "To create command-line interfaces.",
+      "B": "To write unit tests for Python code.",
+      "C": "To handle database migrations.",
+      "D": "To perform statistical analysis."
+    },
+    "answer": "B",
+    "explanation": "The `unittest` module provides a framework for organizing and running unit tests in Python.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 180,
+    "question": "What is a 'callback function' in Python?",
+    "options": {
+      "A": "A function that automatically retries execution upon failure.",
+      "B": "A function passed as an argument to another function, which is then executed after some operation completes.",
+      "C": "A function that can be called from the command line.",
+      "D": "A function that returns multiple values."
+    },
+    "answer": "B",
+    "explanation": "A callback function is a function that is passed as an argument to another function and is executed later, often after an asynchronous operation or event occurs.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 181,
+    "question": "What is the output of `print(isinstance([], list))`?",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "Error",
+      "D": "None"
+    },
+    "answer": "A",
+    "explanation": "`isinstance()` checks if an object is an instance of a specified class or a subclass thereof. An empty list `[]` is an instance of the `list` class.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 182,
+    "question": "Which of these is the correct way to handle a `KeyError` when accessing a dictionary element?",
+    "options": {
+      "A": "if 'key' in my_dict: value = my_dict['key']",
+      "B": "value = my_dict.get('key', default_value)",
+      "C": "try: value = my_dict['key'] except KeyError: value = default_value",
+      "D": "All of the above are correct ways depending on context."
+    },
+    "answer": "D",
+    "explanation": "All options are valid ways to handle missing keys. The choice depends on whether you prefer checking first (LBYL), using a default value with `get()`, or handling the exception (EAFP).",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 183,
+    "question": "What is 'memoization' in Python, and which decorator helps achieve it?",
+    "options": {
+      "A": "A technique to optimize memory usage; `@memory.optimize`.",
+      "B": "A form of caching function results to avoid re-computation for identical inputs; `@functools.lru_cache`.",
+      "C": "A method for securely storing sensitive data; `@secure.encrypt`.",
+      "D": "A process of logging function calls for debugging; `@log.calls`."
+    },
+    "answer": "B",
+    "explanation": "Memoization is an optimization technique where the results of expensive function calls are stored (cached) and returned when the same inputs occur again. `@functools.lru_cache` is a built-in decorator for this purpose.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 184,
+    "question": "How does Python handle 'NameError' vs 'AttributeError'?",
+    "options": {
+      "A": "`NameError` means a variable isn't defined; `AttributeError` means an object doesn't have a certain attribute or method.",
+      "B": "They are the same error, just different names.",
+      "C": "`NameError` is for invalid syntax; `AttributeError` is for logical errors.",
+      "D": "Both indicate that a file could not be found."
+    },
+    "answer": "A",
+    "explanation": "`NameError` is raised when a local or global name is not found (e.g., `print(undefined_var)`). `AttributeError` is raised when an attribute reference or assignment fails (e.g., `my_list.nonexistent_method()`).",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 185,
+    "question": "What is a 'deque' (double-ended queue) and when is it useful?",
+    "options": {
+      "A": "A list that only allows adding elements at the end.",
+      "B": "A list-like collection that supports efficient adding/removing from both ends, suitable for queues or stacks.",
+      "C": "A data structure for representing graphs.",
+      "D": "A type of dictionary that maintains insertion order."
+    },
+    "answer": "B",
+    "explanation": "A `collections.deque` provides O(1) time complexity for appending and popping elements from both the left and right ends, making it more efficient than a `list` for operations like queue or stack implementations.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 186,
+    "question": "What is 'dunder method' `__len__` used for?",
+    "options": {
+      "A": "To get the long integer value of an object.",
+      "B": "To define the behavior of the built-in `len()` function for objects of a class.",
+      "C": "To create a string representation of an object's length.",
+      "D": "To check if an object is empty."
+    },
+    "answer": "B",
+    "explanation": "By implementing the `__len__` method in a class, you enable instances of that class to be used with the built-in `len()` function, returning the length of the object.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 187,
+    "question": "Which of these is a correct use of `zip()`?",
+    "options": {
+      "A": "list(zip([1,2,3]))",
+      "B": "list(zip([1,2,3], ['a','b']))",
+      "C": "list(zip('hello'))",
+      "D": "All of the above are syntactically correct."
+    },
+    "answer": "D",
+    "explanation": "`zip()` can take one or more iterables. It pairs up elements from corresponding positions until one of the iterables is exhausted. All options demonstrate valid usage, though the output will differ.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 188,
+    "question": "What is the difference between `is` and `==`?",
+    "options": {
+      "A": "`is` compares values, `==` compares memory addresses.",
+      "B": "`is` compares memory addresses (identity), `==` compares values (equality).",
+      "C": "They are always interchangeable.",
+      "D": "`is` is for primitive types, `==` for objects."
+    },
+    "answer": "B",
+    "explanation": "The `is` operator checks if two variables point to the exact same object in memory (identity). The `==` operator checks if the values of two objects are equal.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 189,
+    "question": "What is a 'type hint' in Python?",
+    "options": {
+      "A": "A comment that explains the variable's purpose.",
+      "B": "A mechanism to enforce strict data types at runtime.",
+      "C": "Metadata attached to variables and function signatures to indicate expected types, primarily for static analysis.",
+      "D": "A way to automatically convert data types."
+    },
+    "answer": "C",
+    "explanation": "Type hints (from PEP 484) are used to declare the expected types of variables, function parameters, and return values. They are optional and primarily for improving code readability, maintainability, and enabling static analysis tools.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 190,
+    "question": "What is the output of `print(float('inf') > 10**1000)`?",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "Error",
+      "D": "None"
+    },
+    "answer": "A",
+    "explanation": "`float('inf')` represents positive infinity in Python. `10**1000` is a very large number, but it's finite, so infinity is greater than it.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 191,
+    "question": "What is the purpose of the `collections.OrderedDict` (pre-Python 3.7)?",
+    "options": {
+      "A": "To ensure keys are always sorted alphabetically.",
+      "B": "To remember the order in which items were inserted.",
+      "C": "To allow faster lookup than regular dictionaries.",
+      "D": "To prevent duplicate keys from being added."
+    },
+    "answer": "B",
+    "explanation": "Before Python 3.7, standard dictionaries did not guarantee insertion order. `OrderedDict` explicitly maintained the order in which its key-value pairs were inserted. In Python 3.7+, standard dictionaries guarantee insertion order.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 192,
+    "question": "What is a 'namespace' in Python?",
+    "options": {
+      "A": "A folder on your computer where Python files are stored.",
+      "B": "A mapping from names to objects, representing a context where names are defined.",
+      "C": "A unique identifier for each variable.",
+      "D": "A way to organize classes within a module."
+    },
+    "answer": "B",
+    "explanation": "A namespace is a mapping from names (identifiers) to objects. Examples include the set of built-in names, global names in a module, and local names in a function.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 193,
+    "question": "What is the 'Zen of Python'?",
+    "options": {
+      "A": "A debugging philosophy for complex Python code.",
+      "B": "A set of guiding principles for writing good Python code, accessible via `import this`.",
+      "C": "A specific design pattern used in Python's standard library.",
+      "D": "A collection of performance optimization tips."
+    },
+    "answer": "B",
+    "explanation": "The 'Zen of Python' is a collection of 19 guiding principles for writing computer programs that influence the design of the Python language. You can view it by typing `import this` in a Python interpreter.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 194,
+    "question": "What is the purpose of the `exec()` function?",
+    "options": {
+      "A": "To run an external executable file.",
+      "B": "To execute dynamically created Python code (as a string or code object).",
+      "C": "To create executable files from Python scripts.",
+      "D": "To get execution time of a function."
+    },
+    "answer": "B",
+    "explanation": "The `exec()` function executes Python code that is provided as a string or a code object. It's generally advised to use with caution due to security risks if input is not trusted.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 195,
+    "question": "Which of these is the most appropriate way to read a large file line by line without loading the entire file into memory?",
+    "options": {
+      "A": "file.readlines()",
+      "B": "for line in file:",
+      "C": "file.read()",
+      "D": "file.read().splitlines()"
+    },
+    "answer": "B",
+    "explanation": "When iterating directly over a file object (`for line in file:`), Python uses lazy loading, reading one line at a time. This is highly memory-efficient for large files.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 196,
+    "question": "What is the primary difference between a 'classmethod' and a 'staticmethod'?",
+    "options": {
+      "A": "Classmethods can access instance state; staticmethods cannot.",
+      "B": "Classmethods take `self` as the first argument; staticmethods take `cls`.",
+      "C": "Classmethods take `cls` (the class) as the first argument; staticmethods take no implicit first argument.",
+      "D": "Staticmethods can be overridden by subclasses; classmethods cannot."
+    },
+    "answer": "C",
+    "explanation": "A classmethod (`@classmethod`) receives the class itself (`cls`) as its first argument and can access/modify class state. A staticmethod (`@staticmethod`) receives no implicit first argument (neither `self` nor `cls`) and behaves like a regular function placed within a class's namespace, without interacting with the class or instance state.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 197,
+    "question": "How do you achieve 'operator overloading' in Python?",
+    "options": {
+      "A": "By using decorators specific to operators.",
+      "B": "By defining special 'dunder methods' (e.g., `__add__`, `__mul__`) in a class.",
+      "C": "By explicitly calling functions like `add(obj1, obj2)`.",
+      "D": "Python does not support operator overloading."
+    },
+    "answer": "B",
+    "explanation": "Python allows operator overloading by implementing specific 'magic' or 'dunder' methods within a class. For example, `__add__` defines the behavior of the `+` operator, `__mul__` for `*`, and so on.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 198,
+    "question": "What is the output of `[i for i in 'hello' if i in 'aeiou']`?",
+    "options": {
+      "A": "['h', 'e', 'l', 'l', 'o']",
+      "B": "['e', 'o']",
+      "C": "['a', 'e', 'i', 'o', 'u']",
+      "D": "['h', 'l', 'l']"
+    },
+    "answer": "B",
+    "explanation": "This list comprehension iterates through the characters of 'hello' and includes only those that are vowels. The vowels in 'hello' are 'e' and 'o'.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 199,
+    "question": "What is a 'namespace collision' and how do packages help prevent it?",
+    "options": {
+      "A": "When two variables in the same function have the same name; solved by renaming.",
+      "B": "When two modules or functions have the same name, leading to confusion. Packages (directories with `__init__.py`) provide hierarchical organization to prevent this by requiring explicit import paths.",
+      "C": "When a function overwrites a global variable; solved by using `nonlocal`.",
+      "D": "When two different Python versions are installed on the same system."
+    },
+    "answer": "B",
+    "explanation": "A namespace collision occurs when two different entities (e.g., functions, classes, modules) have the same name, causing ambiguity. Python packages resolve this by creating a hierarchical namespace (e.g., `package.module.function`), making it very unlikely for names from different packages to collide.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 200,
+    "question": "What is the output of `print(sum(x for x in [1, 2, 3]))`?",
+    "options": {
+      "A": "6",
+      "B": "Error",
+      "C": "[1, 2, 3]",
+      "D": "A generator object"
+    },
+    "answer": "A",
+    "explanation": "The `(x for x in [1, 2, 3])` part is a generator expression, which yields values 1, 2, and 3. The `sum()` function then sums these values, resulting in 6.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 201,
+    "question": "What is a 'docstring' in Python?",
+    "options": {
+      "A": "A single-line comment.",
+      "B": "A multi-line string used to explain the purpose of modules, functions, classes, or methods.",
+      "C": "A type of string literal that is automatically formatted.",
+      "D": "A string used for debugging output."
+    },
+    "answer": "B",
+    "explanation": "Docstrings are string literals that occur as the first statement in a module, function, class, or method definition. They are used to document the code and are accessible via `__doc__` attribute.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 202,
+    "question": "Which method is used to sort a list in-place (modifies the original list)?",
+    "options": {
+      "A": "sorted()",
+      "B": "list.sort()",
+      "C": "list.order()",
+      "D": "list.arrange()"
+    },
+    "answer": "B",
+    "explanation": "The `list.sort()` method sorts the list in-place, meaning it modifies the original list and returns `None`. The `sorted()` function returns a new sorted list.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 203,
+    "question": "What is the result of `print(10 % 3)`?",
+    "options": {
+      "A": "3",
+      "B": "1",
+      "C": "0",
+      "D": "Error"
+    },
+    "answer": "B",
+    "explanation": "The `%` operator is the modulo operator, which returns the remainder of the division. 10 divided by 3 is 3 with a remainder of 1.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 204,
+    "question": "What is the purpose of the `break` keyword inside a loop?",
+    "options": {
+      "A": "To skip the current iteration and proceed to the next.",
+      "B": "To terminate the loop immediately.",
+      "C": "To restart the loop from the beginning.",
+      "D": "To handle errors within the loop."
+    },
+    "answer": "B",
+    "explanation": "The `break` statement causes the loop to terminate immediately, and program control proceeds to the statement following the loop.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 205,
+    "question": "Which function is used to convert a string to an integer?",
+    "options": {
+      "A": "str_to_int()",
+      "B": "integer()",
+      "C": "int()",
+      "D": "to_integer()"
+    },
+    "answer": "C",
+    "explanation": "The built-in `int()` function converts a string or float to an integer.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 206,
+    "question": "How do you create an empty set in Python?",
+    "options": {
+      "A": "{}",
+      "B": "[]",
+      "C": "set()",
+      "D": "()"
+    },
+    "answer": "C",
+    "explanation": "Using `{}` creates an empty dictionary. To create an empty set, you must use the `set()` constructor.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 207,
+    "question": "What is the output of `print(min([10, 20, 5]))`?",
+    "options": {
+      "A": "20",
+      "B": "10",
+      "C": "5",
+      "D": "Error"
+    },
+    "answer": "C",
+    "explanation": "The `min()` function returns the smallest item in an iterable.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 208,
+    "question": "What does the `continue` statement do in a loop?",
+    "options": {
+      "A": "Exits the loop entirely.",
+      "B": "Skips the rest of the current iteration and moves to the next iteration.",
+      "C": "Restarts the loop from the beginning.",
+      "D": "Ends the program execution."
+    },
+    "answer": "B",
+    "explanation": "The `continue` statement causes the loop to skip the current iteration and immediately proceed to the next iteration (checking the loop condition again).",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 209,
+    "question": "Which of these is used to define an anonymous function in Python?",
+    "options": {
+      "A": "func",
+      "B": "anonymous",
+      "C": "lambda",
+      "D": "def"
+    },
+    "answer": "C",
+    "explanation": "The `lambda` keyword is used to create small, anonymous functions. They can take any number of arguments but can only have one expression.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 210,
+    "question": "How do you get the current working directory in Python?",
+    "options": {
+      "A": "os.getcwd()",
+      "B": "os.current_dir()",
+      "C": "sys.cwd()",
+      "D": "path.get_current_dir()"
+    },
+    "answer": "A",
+    "explanation": "The `os.getcwd()` function from the `os` module returns a string representing the current working directory.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 211,
+    "question": "What is the difference between `extend()` and `append()` for lists?",
+    "options": {
+      "A": "`append()` adds elements individually; `extend()` adds elements from an iterable.",
+      "B": "`extend()` adds elements individually; `append()` adds elements from an iterable.",
+      "C": "`extend()` works only with strings; `append()` works with lists.",
+      "D": "They both do the same thing."
+    },
+    "answer": "A",
+    "explanation": "`append()` adds a single element (which can be a list itself) to the end of the list. `extend()` iterates over an iterable (like another list or tuple) and adds each element to the end of the list.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 212,
+    "question": "Which of the following is true about Python modules?",
+    "options": {
+      "A": "A module must contain a class definition.",
+      "B": "A module is a single Python file (`.py`) containing code.",
+      "C": "Modules can only be imported once per program execution.",
+      "D": "Modules cannot contain executable statements."
+    },
+    "answer": "B",
+    "explanation": "A module is simply a file containing Python definitions and statements. When a module is imported for the first time, its code is executed. Subsequent imports just retrieve the already loaded module object.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 213,
+    "question": "What is a 'generator expression'?",
+    "options": {
+      "A": "A function that uses `yield`.",
+      "B": "A concise syntax for creating a generator (similar to list comprehension but uses parentheses).",
+      "C": "A string that generates Python code.",
+      "D": "An error that occurs when a generator is exhausted."
+    },
+    "answer": "B",
+    "explanation": "Generator expressions are a more memory-efficient alternative to list comprehensions for large datasets. They use parentheses `()` instead of square brackets `[]` and create an iterator that yields elements one by one.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 214,
+    "question": "What is the output of `'hello'.replace('l', 'x')`?",
+    "options": {
+      "A": "hexxo",
+      "B": "hexlo",
+      "C": "hellx",
+      "D": "hello"
+    },
+    "answer": "A",
+    "explanation": "The `replace()` method returns a new string where all occurrences of a specified substring are replaced with another substring. In 'hello', both 'l's are replaced by 'x'.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 215,
+    "question": "Which of the following would be an appropriate use case for the `try-except-else-finally` block?",
+    "options": {
+      "A": "Running a simple loop.",
+      "B": "Opening a file, processing its contents, handling potential file errors, and ensuring the file is always closed.",
+      "C": "Defining a new function.",
+      "D": "Creating a dictionary from two lists."
+    },
+    "answer": "B",
+    "explanation": "This structure is ideal for robust resource management. `try` for the main operation, `except` for specific errors, `else` for code to run only if `try` succeeds, and `finally` for cleanup that must always happen.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 216,
+    "question": "What is 'inheritance' in OOP?",
+    "options": {
+      "A": "The process of creating multiple objects from a single class.",
+      "B": "The ability of a class (subclass) to acquire properties and behaviors from another class (superclass).",
+      "C": "The hiding of internal implementation details.",
+      "D": "Defining a function within another function."
+    },
+    "answer": "B",
+    "explanation": "Inheritance is a fundamental concept in OOP where a new class (derived class/child class) is created from an existing class (base class/parent class), inheriting its attributes and methods.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 217,
+    "question": "What is a 'hashable' object in Python?",
+    "options": {
+      "A": "An object that can be stored in a list.",
+      "B": "An object whose value can change after it's created.",
+      "C": "An object that has a hash value which remains constant throughout its lifetime, and can be compared to other objects.",
+      "D": "An object that can be converted to a string."
+    },
+    "answer": "C",
+    "explanation": "Hashable objects have a hash value that never changes during their lifetime (i.e., they are immutable). They also must be comparable to other objects. This property is required for elements in a `set` and keys in a `dictionary`.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 218,
+    "question": "What is the difference between an `import` statement and `from ... import ...`?",
+    "options": {
+      "A": "`import` brings the module into scope; `from ... import ...` brings specific attributes/functions into the current namespace directly.",
+      "B": "`from ... import ...` is faster than `import`.",
+      "C": "`import` is used for packages; `from ... import ...` for modules.",
+      "D": "They are functionally identical, just different syntax."
+    },
+    "answer": "A",
+    "explanation": "`import module_name` makes `module_name` available, requiring `module_name.function()` to access its contents. `from module_name import function_name` brings `function_name` directly into the current namespace, allowing `function_name()` to be called directly.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 219,
+    "question": "What does 'dunder' refer to in Python?",
+    "options": {
+      "A": "A type of error that occurs frequently.",
+      "B": "A common mistake in Python programming.",
+      "C": "A shorthand for 'Double Under' (double underscore) methods, which are special methods.",
+      "D": "A style of coding that emphasizes brevity."
+    },
+    "answer": "C",
+    "explanation": "'Dunder' is a colloquial term for the double underscores that prefix and suffix special methods in Python classes, like `__init__`, `__str__`, etc.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 220,
+    "question": "What is the purpose of the `collections.Counter` class?",
+    "options": {
+      "A": "To create a list with integer counts.",
+      "B": "To efficiently count hashable objects in an iterable and store them as a dictionary-like collection.",
+      "C": "To generate random numbers.",
+      "D": "To track memory usage of objects."
+    },
+    "answer": "B",
+    "explanation": "`collections.Counter` is a specialized dictionary subclass for counting hashable objects. It maps items to their counts.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 221,
+    "question": "What is the output of the following?\n```python\nmy_string = \"Python\"\nmy_list = list(my_string)\nmy_list[0] = 'J'\nprint(\"\".join(my_list))\n```",
+    "options": {
+      "A": "Jython",
+      "B": "Python",
+      "C": "Error",
+      "D": "None"
+    },
+    "answer": "A",
+    "explanation": "Strings are immutable, but by converting to a list of characters, it becomes mutable. After modifying the list, `join()` concatenates the characters back into a string.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 222,
+    "question": "Which of these concepts is NOT directly related to Polymorphism in Python?",
+    "options": {
+      "A": "Method Overriding",
+      "B": "Duck Typing",
+      "C": "Inheritance",
+      "D": "Private Attributes (`__attribute`)"
+    },
+    "answer": "D",
+    "explanation": "Polymorphism (meaning 'many forms') is about objects of different types responding to the same method call in different ways. Method overriding and inheritance are mechanisms, and duck typing is Python's approach. Private attributes are about encapsulation and name mangling, not polymorphism.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 223,
+    "question": "What is the `__new__` method primarily used for?",
+    "options": {
+      "A": "To initialize an instance after it's created.",
+      "B": "To customize instance creation and return the new object, often used for singletons or immutable types.",
+      "C": "To define how instances are deleted.",
+      "D": "To define static methods in a class."
+    },
+    "answer": "B",
+    "explanation": "`__new__` is called before `__init__`. It's responsible for creating and returning the *new, empty* instance of the class. It's often overridden when you need to control the very first step of object creation, like deciding whether to return a new object or an existing one.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 224,
+    "question": "What is the significance of the `sys` module?",
+    "options": {
+      "A": "It provides functions for mathematical operations.",
+      "B": "It provides access to system-specific parameters and functions, such as interpreter version, command-line arguments, and exit functions.",
+      "C": "It is used for managing file system operations.",
+      "D": "It provides tools for network programming."
+    },
+    "answer": "B",
+    "explanation": "The `sys` module provides access to system-specific parameters and functions, allowing interaction with the interpreter and its environment.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 225,
+    "question": "What is the difference between `pass` and `continue`?",
+    "options": {
+      "A": "`pass` exits a loop; `continue` skips an iteration.",
+      "B": "`pass` does nothing (a placeholder); `continue` skips the rest of the current loop iteration.",
+      "C": "`continue` exits a loop; `pass` skips an iteration.",
+      "D": "They are interchangeable for flow control."
+    },
+    "answer": "B",
+    "explanation": "`pass` is a null operation, used where a statement is syntactically required but no action is desired. `continue` skips the remainder of the current loop body and proceeds to the next iteration of the loop.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 226,
+    "question": "What does `isinstance(obj, Class)` check?",
+    "options": {
+      "A": "If `obj` has the same memory address as `Class`.",
+      "B": "If `obj` is an exact instance of `Class` (not a subclass).",
+      "C": "If `obj` is an instance of `Class` or an instance of a subclass of `Class`.",
+      "D": "If `Class` is a superclass of `obj`."
+    },
+    "answer": "C",
+    "explanation": "`isinstance(obj, Class)` returns `True` if `obj` is an instance of `Class` or if `obj` is an instance of a class derived from `Class` (a subclass).",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 227,
+    "question": "What is the purpose of `pip install -e .`?",
+    "options": {
+      "A": "To install a package in a temporary directory.",
+      "B": "To install a package in 'editable' mode, allowing direct changes to the source code to be reflected without re-installation.",
+      "C": "To uninstall a package.",
+      "D": "To install a package from a specific branch."
+    },
+    "answer": "B",
+    "explanation": "`pip install -e .` (or `--editable`) installs the package in 'editable' mode from the current directory. This means instead of copying the package files, it installs a link to the project's source code, so local changes are immediately visible without needing to reinstall.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 228,
+    "question": "Which decorator would you use to register a function to be called at program exit?",
+    "options": {
+      "A": "`@atexit.register`",
+      "B": "`@cleanup.on_exit`",
+      "C": "`@sys.exit_hook`",
+      "D": "`@exit_program`"
+    },
+    "answer": "A",
+    "explanation": "The `atexit` module provides a way to register functions to be executed when a program is shutting down, regardless of how it exits (normal completion, unhandled exception, `sys.exit()`).",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 229,
+    "question": "What is the effect of using `from __future__ import print_function` in Python 2?",
+    "options": {
+      "A": "It enables advanced string formatting features.",
+      "B": "It changes `print` from a statement to a function, mimicking Python 3 behavior.",
+      "C": "It imports a module for future compatibility.",
+      "D": "It has no effect."
+    },
+    "answer": "B",
+    "explanation": "In Python 2, `print` was a statement. `from __future__ import print_function` was used to enable the Python 3-style `print()` function behavior in Python 2, requiring parentheses for arguments.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 230,
+    "question": "What is a 'co-routine' and how does it relate to asynchronous programming?",
+    "options": {
+      "A": "A standard function that always runs synchronously.",
+      "B": "A function that can pause its execution and yield control to another co-routine, enabling non-blocking asynchronous operations.",
+      "C": "A parallel computing process running on a separate CPU core.",
+      "D": "A nested function that operates on local variables only."
+    },
+    "answer": "B",
+    "explanation": "Coroutines are functions that can be paused and resumed. They are fundamental to Python's `asyncio` framework for asynchronous programming, allowing efficient management of I/O-bound tasks by context-switching between them without blocking.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 231,
+    "question": "What is the output of the following?\n```python\nmy_tuple = (1, 2, 3)\nmy_tuple += (4,)\nprint(my_tuple)\n```",
+    "options": {
+      "A": "(1, 2, 3, 4)",
+      "B": "(1, 2, 3), (4,)",
+      "C": "Error",
+      "D": "None"
+    },
+    "answer": "A",
+    "explanation": "Although tuples are immutable, the `+=` operator for tuples (and strings) creates a *new* tuple (or string) by concatenating the right operand, and then reassigns the variable to this new object. It doesn't modify the original tuple in-place.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 232,
+    "question": "Which function is used to apply a given function to each item of an iterable, filtering out items for which the function returns `False` or a 'falsy' value?",
+    "options": {
+      "A": "map()",
+      "B": "reduce()",
+      "C": "filter()",
+      "D": "apply()"
+    },
+    "answer": "C",
+    "explanation": "The `filter()` function constructs an iterator from elements of an iterable for which a function returns true.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 233,
+    "question": "What is the purpose of the `collections.namedtuple` class?",
+    "options": {
+      "A": "To create a list of tuples.",
+      "B": "To create tuple-like objects that have fields accessible by name as well as index.",
+      "C": "To define mutable tuples.",
+      "D": "To sort tuples based on specific fields."
+    },
+    "answer": "B",
+    "explanation": "`namedtuple` allows you to create immutable, tuple-like objects where fields can be accessed by attribute name (e.g., `point.x`) in addition to index (e.g., `point[0]`), improving code readability.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 234,
+    "question": "What is the primary reason for using `super()` in multi-inheritance scenarios?",
+    "options": {
+      "A": "To always call the method of the most immediate parent.",
+      "B": "To avoid explicitly naming base classes and properly delegate calls along the Method Resolution Order (MRO).",
+      "C": "To call methods defined only in the top-most base class.",
+      "D": "To prevent method overriding."
+    },
+    "answer": "B",
+    "explanation": "`super()` correctly implements cooperative multiple inheritance by following the MRO. It ensures that when a method is called on a class, the next class in the MRO that provides that method is called, allowing for proper method chaining and avoiding redundant calls or infinite recursion.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 235,
+    "question": "How do you define a property with a setter and deleter in a Python class?",
+    "options": {
+      "A": "Using `@attribute.setter` and `@attribute.deleter` decorators with the `@property` decorator.",
+      "B": "By manually defining `get_attribute`, `set_attribute`, `del_attribute` methods.",
+      "C": "Using `__setattribute__` and `__delattribute__` dunder methods directly.",
+      "D": "Properties can only be read-only in Python."
+    },
+    "answer": "A",
+    "explanation": "After defining the getter method with `@property`, you can add a setter using `@<property_name>.setter` and a deleter using `@<property_name>.deleter`.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 236,
+    "question": "What does `isinstance(x, (int, float))` check?",
+    "options": {
+      "A": "If `x` is an instance of both `int` and `float` simultaneously.",
+      "B": "If `x` is an instance of `int` or `float`.",
+      "C": "If `x` is neither an `int` nor a `float`.",
+      "D": "This syntax is invalid."
+    },
+    "answer": "B",
+    "explanation": "When the second argument to `isinstance()` is a tuple, it checks if the object is an instance of *any* of the types listed in the tuple.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 237,
+    "question": "What is a 'generator'?",
+    "options": {
+      "A": "A function that always returns a list.",
+      "B": "A special type of iterator that can be paused and resumed, producing values on demand using `yield`.",
+      "C": "A class that can only be instantiated once.",
+      "D": "A decorator for optimizing recursive functions."
+    },
+    "answer": "B",
+    "explanation": "Generators are functions that yield a sequence of values, instead of returning them all at once. They are memory-efficient because they generate values on the fly and maintain their state between calls.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 238,
+    "question": "What is the purpose of `setattr()` and `getattr()`?",
+    "options": {
+      "A": "To define static methods and class methods.",
+      "B": "To dynamically set and get attributes on an object by name (string).",
+      "C": "To manage class inheritance.",
+      "D": "To perform type conversions between objects."
+    },
+    "answer": "B",
+    "explanation": "`setattr(object, name, value)` sets the named attribute on `object` to `value`. `getattr(object, name[, default])` returns the value of the named attribute of `object`.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 239,
+    "question": "What is a 'closure' in Python?",
+    "options": {
+      "A": "A function that has finished its execution and released all its resources.",
+      "B": "A function object that remembers values in its enclosing scope, even if those values are not present in memory anymore.",
+      "C": "A specific type of context manager for closing files.",
+      "D": "A private method that cannot be accessed from outside its class."
+    },
+    "answer": "B",
+    "explanation": "A closure occurs when a nested function remembers and accesses variables from its enclosing scope, even after the outer function has completed its execution and its local variables would normally be out of scope.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 240,
+    "question": "What is a 'type hint'?",
+    "options": {
+      "A": "A mechanism for strict type checking at runtime.",
+      "B": "A way to indicate the expected data types of variables, function arguments, and return values for static analysis tools and readability.",
+      "C": "A built-in function to determine the type of a variable.",
+      "D": "A special comment that documents variable usage."
+    },
+    "answer": "B",
+    "explanation": "Type hints (or type annotations) are a feature in Python 3.5+ (PEP 484) that allow you to explicitly indicate the expected types of variables, function parameters, and return values. They are used by static analysis tools (like MyPy) to catch type-related errors before runtime, and improve code readability for humans. They do not enforce types at runtime by default.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 241,
+    "question": "What is the purpose of the `yield from` expression?",
+    "options": {
+      "A": "To simply yield multiple values from a list.",
+      "B": "To delegate control to a sub-generator or another iterable, simplifying generator composition.",
+      "C": "To exit a generator function immediately.",
+      "D": "To generate values in a specific range."
+    },
+    "answer": "B",
+    "explanation": "The `yield from` expression (introduced in Python 3.3) allows a generator to delegate part of its operation to another generator, which is particularly useful for chaining generators or constructing complex coroutines.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 242,
+    "question": "What is the output of `print(sum(range(10)))`?",
+    "options": {
+      "A": "45",
+      "B": "55",
+      "C": "10",
+      "D": "Error"
+    },
+    "answer": "A",
+    "explanation": "`range(10)` generates numbers from 0 to 9. The sum of `0+1+2+3+4+5+6+7+8+9` is 45.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 243,
+    "question": "What does `type(object)` return?",
+    "options": {
+      "A": "The memory address of the object.",
+      "B": "The class type of the object.",
+      "C": "A string representation of the object's value.",
+      "D": "Whether the object is mutable or immutable."
+    },
+    "answer": "B",
+    "explanation": "The `type()` function returns the class object that an instance belongs to.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 244,
+    "question": "What is the purpose of the `pass` keyword?",
+    "options": {
+      "A": "To end a loop.",
+      "B": "To skip an iteration in a loop.",
+      "C": "A null operation; it does nothing and acts as a placeholder where a statement is syntactically required.",
+      "D": "To define an empty function that should not be called."
+    },
+    "answer": "C",
+    "explanation": "The `pass` statement is a no-op (no operation). It is used as a placeholder where syntactically some code is required, but you don't want any action to be performed.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 245,
+    "question": "Which of these allows you to run multiple sections of code concurrently within the same process, but not truly in parallel due to the GIL?",
+    "options": {
+      "A": "Multiprocessing",
+      "B": "Threading",
+      "C": "Asyncio",
+      "D": "Both B and C (for I/O-bound tasks)"
+    },
+    "answer": "D",
+    "explanation": "Both `threading` and `asyncio` (coroutines) allow for concurrency within a single Python process. However, due to the GIL, `threading` is not effective for CPU-bound tasks in CPython, but is good for I/O-bound tasks. `asyncio` is specifically designed for efficient I/O-bound concurrency.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 246,
+    "question": "What is a 'falsy' value in Python?",
+    "options": {
+      "A": "A value that causes an error.",
+      "B": "A value that is evaluated as `False` in a boolean context (e.g., in `if` statements).",
+      "C": "A value that is explicitly `None`.",
+      "D": "Any string that is not empty."
+    },
+    "answer": "B",
+    "explanation": "In Python, values like `0`, `0.0`, empty sequences (`''`, `[]`, `()`), empty mappings (`{}`), `None`, and `False` itself are considered 'falsy' because they evaluate to `False` in a boolean context.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 247,
+    "question": "What is the output of `print(\"Hello\".startswith(\"He\"))`?",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "Error",
+      "D": "None"
+    },
+    "answer": "A",
+    "explanation": "The `startswith()` method returns `True` if the string starts with the specified prefix, otherwise `False`.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 248,
+    "question": "How do you achieve parallelism for CPU-bound tasks in Python, bypassing the GIL?",
+    "options": {
+      "A": "Using the `threading` module.",
+      "B": "Using the `multiprocessing` module.",
+      "C": "Using `asyncio`.",
+      "D": "By optimizing code with `numexpr`."
+    },
+    "answer": "B",
+    "explanation": "The `multiprocessing` module creates separate processes, each with its own Python interpreter and memory space, effectively bypassing the GIL and allowing true parallelism on multi-core CPUs for CPU-bound tasks.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 249,
+    "question": "What is the purpose of `type()` vs `isinstance()`?",
+    "options": {
+      "A": "`type()` checks if an object is an instance of a class or its subclass; `isinstance()` checks for exact type match.",
+      "B": "`type()` is for primitive types; `isinstance()` for custom objects.",
+      "C": "`type()` returns the exact type of an object; `isinstance()` checks if an object is an instance of a class or a class derived from it (accounts for inheritance).",
+      "D": "They are functionally identical for all practical purposes."
+    },
+    "answer": "C",
+    "explanation": "`type()` returns the exact class of an object. `isinstance()` checks if an object is an instance of a specified class or a subclass thereof, making it generally preferred for type checking when inheritance is involved.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 250,
+    "question": "What is the output of `[x for x in range(3)]`?",
+    "options": {
+      "A": "[0, 1, 2]",
+      "B": "[0, 1, 2, 3]",
+      "C": "range(0, 3)",
+      "D": "Error"
+    },
+    "answer": "A",
+    "explanation": "This is a list comprehension. `range(3)` yields 0, 1, 2. The list comprehension collects these into a new list.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 251,
+    "question": "What is the purpose of the `zip()` function?",
+    "options": {
+      "A": "To compress files into a `.zip` archive.",
+      "B": "To combine two lists into a single string.",
+      "C": "To pair up elements from multiple iterables into tuples.",
+      "D": "To sort elements in parallel."
+    },
+    "answer": "C",
+    "explanation": "`zip()` takes two or more iterables and returns an iterator of tuples, where the i-th tuple contains the i-th element from each of the input iterables.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 252,
+    "question": "What is the output of `\"{0} and {1}\".format(\"apples\", \"oranges\")`?",
+    "options": {
+      "A": "{0} and {1}",
+      "B": "apples and oranges",
+      "C": "(\"apples\", \"oranges\")",
+      "D": "Error"
+    },
+    "answer": "B",
+    "explanation": "The `format()` method replaces numbered placeholders `{0}`, `{1}` with the corresponding arguments.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 253,
+    "question": "How do you check if a string contains only digits?",
+    "options": {
+      "A": "my_string.isnumeric()",
+      "B": "my_string.isdigit()",
+      "C": "my_string.isdecimal()",
+      "D": "All of the above have slight differences but broadly check for digits."
+    },
+    "answer": "D",
+    "explanation": "All three methods (`isnumeric()`, `isdigit()`, `isdecimal()`) check for string containing only digit characters, but they handle different numeric characters (e.g., Unicode digits, superscripts) slightly differently. `isdigit()` is commonly used for basic digit checks.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 254,
+    "question": "What is the primary difference between `threading` and `multiprocessing` in Python?",
+    "options": {
+      "A": "`threading` is for I/O-bound tasks, `multiprocessing` for CPU-bound tasks.",
+      "B": "`threading` creates separate processes; `multiprocessing` creates threads within the same process.",
+      "C": "`threading` bypasses the GIL; `multiprocessing` is limited by the GIL.",
+      "D": "`threading` is faster than `multiprocessing` in all scenarios."
+    },
+    "answer": "A",
+    "explanation": "`threading` operates within a single process and is subject to the GIL, making it suitable for I/O-bound tasks (where threads mostly wait). `multiprocessing` creates separate processes, each with its own GIL and memory space, allowing true parallel execution for CPU-bound tasks.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 255,
+    "question": "What is the purpose of `sys.argv`?",
+    "options": {
+      "A": "To get the current Python version.",
+      "B": "To access environment variables.",
+      "C": "To retrieve the list of command-line arguments passed to a Python script.",
+      "D": "To define new system variables."
+    },
+    "answer": "C",
+    "explanation": "`sys.argv` is a list in the `sys` module that contains the command-line arguments passed to the script. `sys.argv[0]` is the script name itself.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 256,
+    "question": "What is the correct way to open a file in binary read mode?",
+    "options": {
+      "A": "open('file.bin', 'r')",
+      "B": "open('file.bin', 'rb')",
+      "C": "open('file.bin', 'b')",
+      "D": "open_binary('file.bin')"
+    },
+    "answer": "B",
+    "explanation": "The 'rb' mode specifies opening a file for reading in binary mode.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 257,
+    "question": "How does `os.path.join()` handle paths?",
+    "options": {
+      "A": "It concatenates paths with a fixed '/' separator.",
+      "B": "It joins path components intelligently, handling platform-specific separators.",
+      "C": "It removes duplicate path components.",
+      "D": "It checks if a path exists."
+    },
+    "answer": "B",
+    "explanation": "`os.path.join()` is crucial for building file paths robustly across different operating systems (Windows uses `\\`, Unix-like systems use `/`). It inserts the correct separator and handles cases like absolute paths correctly.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 258,
+    "question": "What is 'reflection' (or introspection) in Python?",
+    "options": {
+      "A": "The ability of a program to execute code dynamically.",
+      "B": "The ability of a program to examine and modify its own structure and behavior at runtime.",
+      "C": "A method to debug code by stepping through it.",
+      "D": "A process of securing code from external access."
+    },
+    "answer": "B",
+    "explanation": "Reflection (or introspection) is the ability of a program to inspect its own code, memory, objects, classes, and methods at runtime. Python is highly reflective, with functions like `type()`, `dir()`, `getattr()`, `setattr()`, `hasattr()`, `inspect` module, etc.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 259,
+    "question": "What is the output of `[x for x in range(5) if x % 2 != 0]`?",
+    "options": {
+      "A": "[0, 2, 4]",
+      "B": "[1, 3]",
+      "C": "[0, 1, 2, 3, 4]",
+      "D": "[]"
+    },
+    "answer": "B",
+    "explanation": "This list comprehension iterates from 0 to 4. The `if x % 2 != 0` condition filters for odd numbers, resulting in [1, 3].",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 260,
+    "question": "How can you prevent a list from being modified within a function when passed as an argument?",
+    "options": {
+      "A": "By marking the parameter as `const` (not a Python feature).",
+      "B": "By making a shallow copy of the list inside the function (e.g., `new_list = old_list[:]`).",
+      "C": "By converting the list to a tuple before passing it.",
+      "D": "Both B and C."
+    },
+    "answer": "D",
+    "explanation": "Since lists are mutable, a function receives a reference to the original list. To prevent modification, you can pass a copy (`list[:]` or `list.copy()`) or pass an immutable version (convert to `tuple()`) if the function only needs to read the data.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 261,
+    "question": "What is a 'decorator' in Python, and how is it applied?",
+    "options": {
+      "A": "A function that takes another function and extends its behavior, applied using `@decorator_name` above the function definition.",
+      "B": "A special type of class that modifies attributes, applied using `decorator.apply(func)`.",
+      "C": "A keyword used to define private methods.",
+      "D": "A way to automatically generate documentation for functions."
+    },
+    "answer": "A",
+    "explanation": "A decorator is a callable that takes another function (or class) as an argument and returns a new function (or class) that typically extends or modifies the behavior of the original without changing its source code. They are applied using the `@` symbol.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 262,
+    "question": "What is the purpose of `functools.reduce()`?",
+    "options": {
+      "A": "To reduce the size of a list for memory efficiency.",
+      "B": "To apply a function of two arguments cumulatively to the items of an iterable, from left to right, so as to reduce the iterable to a single value.",
+      "C": "To reverse the order of elements in an iterable.",
+      "D": "To remove duplicate elements from an iterable."
+    },
+    "answer": "B",
+    "explanation": "`reduce()` (from `functools` module) applies a rolling computation to sequential pairs of values in an iterable, ultimately reducing it to a single value.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 263,
+    "question": "What is the output of `type(None)`?",
+    "options": {
+      "A": "<class 'NoneType'>",
+      "B": "<class 'null'>",
+      "C": "<class 'object'>",
+      "D": "None"
+    },
+    "answer": "A",
+    "explanation": "`None` is a unique object of the `NoneType` class.",
+    "topic": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 264,
+    "question": "What is an 'iterable' in Python?",
+    "options": {
+      "A": "An object that can be stored in memory.",
+      "B": "An object that has an `__iter__` method (or `__getitem__`) and can be looped over (e.g., lists, strings, tuples).",
+      "C": "An object that has a `next()` method.",
+      "D": "Any object that can be printed."
+    },
+    "answer": "B",
+    "explanation": "An iterable is an object capable of returning its members one at a time. It's essentially anything you can loop over using a `for` loop.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 265,
+    "question": "What is the purpose of the `collections.deque` class?",
+    "options": {
+      "A": "A list that supports fast appending/popping from only one end.",
+      "B": "A list-like data structure optimized for fast appends and pops from both ends.",
+      "C": "A fixed-size array for numerical operations.",
+      "D": "A dictionary that remembers insertion order."
+    },
+    "answer": "B",
+    "explanation": "`collections.deque` (double-ended queue) provides O(1) time complexity for `append()`, `pop()`, `appendleft()`, and `popleft()`, making it highly efficient for queue-like or stack-like operations where elements are added/removed from either end.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 266,
+    "question": "Which of the following is true about Python's garbage collection?",
+    "options": {
+      "A": "It uses only reference counting.",
+      "B": "It uses reference counting and a cyclic garbage collector for detecting and collecting reference cycles.",
+      "C": "Python requires manual memory management.",
+      "D": "Objects are never truly deallocated until program termination."
+    },
+    "answer": "B",
+    "explanation": "Python employs an automatic garbage collection system. Its primary mechanism is reference counting, where memory is freed as soon as an object's reference count drops to zero. However, to handle circular references (where objects refer to each other but are no longer reachable), a separate generational cyclic garbage collector runs periodically.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 267,
+    "question": "What is 'Monkey Patching' in Python?",
+    "options": {
+      "A": "A technique to apply security patches to the interpreter.",
+      "B": "Dynamically modifying or adding attributes/methods to a class or module at runtime.",
+      "C": "A type of debugging where you 'patch' errors by hand.",
+      "D": "Optimizing code by automatically changing method names."
+    },
+    "answer": "B",
+    "explanation": "Monkey patching is the practice of modifying existing code (classes, modules, functions) at runtime, typically by adding, changing, or deleting attributes or methods. While powerful, it can lead to less maintainable code if overused.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 268,
+    "question": "What is the purpose of `__slots__` attribute in a class?",
+    "options": {
+      "A": "To allow dynamic creation of instance attributes.",
+      "B": "To define an explicit list of valid attributes for instances, preventing `__dict__` and saving memory.",
+      "C": "To make all attributes private.",
+      "D": "To ensure thread-safe attribute access."
+    },
+    "answer": "B",
+    "explanation": "By default, Python instances store their attributes in a `__dict__`. Using `__slots__` allows you to explicitly declare all expected attributes, which eliminates the `__dict__` for instances (saving memory) and can slightly speed up attribute access.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 269,
+    "question": "Which decorator would you use to create a method that can be called on the class itself, and receives the class as its first argument?",
+    "options": {
+      "A": "`@staticmethod`",
+      "B": "`@classmethod`",
+      "C": "`@property`",
+      "D": "`@abstractmethod`"
+    },
+    "answer": "B",
+    "explanation": "The `@classmethod` decorator transforms a method into a class method. The first argument to a class method is conventionally `cls`, which refers to the class itself, allowing it to interact with class-level attributes or create new instances.",
+    "topic": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 270,
+    "question": "What is a 'context manager' and how do you define one using `contextlib`?",
+    "options": {
+      "A": "An object that manages global variables. Defined by `global_context`.",
+      "B": "An object used for resource management (acquire/release). Defined by a class with `__enter__`/`__exit__` or by a generator function with `@contextlib.contextmanager` and a `yield` statement.",
+      "C": "A function that configures the Python interpreter. Defined by `setup_context()`.",
+      "D": "A pattern for handling multiple exceptions."
+    },
+    "answer": "B",
+    "explanation": "Context managers guarantee that a resource is properly set up and torn down, even if errors occur. You can create them by defining a class with `__enter__` and `__exit__` methods, or more concisely for simple cases, by using a generator function decorated with `@contextlib.contextmanager` where resource acquisition happens before `yield` and release happens after `yield`.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 271,
+    "question": "What is the output of `True + True` in Python?",
+    "options": {
+      "A": "TrueTrue",
+      "B": "2",
+      "C": "True",
+      "D": "Error"
+    },
+    "answer": "B",
+    "explanation": "In Python, `True` and `False` are subclasses of integers, with `True` being 1 and `False` being 0. So, `True + True` evaluates to `1 + 1 = 2`.",
+    "topic": "Python",
+    "difficulty": "Hard"
+  }
+]
