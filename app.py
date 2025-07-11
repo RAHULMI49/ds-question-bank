@@ -49,10 +49,10 @@ questions = load_data()
 topics = sorted(set(q["topic"] for q in questions))
 difficulties = sorted(set(q["difficulty"] for q in questions))
 
-selected_topic = st.sidebar.selectbox("Filter by Topic", ["All"] + topics)
-selected_difficulty = st.sidebar.selectbox("Filter by Difficulty", ["All"] + difficulties)
+selected_topic = st.sidebar.selectbox("Filter by Topic", topics + ["All"])
+selected_difficulty = st.sidebar.selectbox("Filter by Difficulty", difficulties + ["All"])
 
-if st.sidebar.button("🔄 Restart Quiz"):
+if st.sidebar.button("🔄 Filter"):
     st.session_state.shuffled_questions = None
     st.session_state.q_index = 0
     st.session_state.submitted = False
