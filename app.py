@@ -59,6 +59,7 @@ if st.sidebar.button("🔄 Restart Quiz"):
     st.session_state.selected_option = None
     st.session_state.score = 0
     st.session_state.attempted = 0
+    st.session_state.quiz_ended = False
     st.rerun()
 
 # Filter questions
@@ -89,6 +90,8 @@ if "score" not in st.session_state:
     st.session_state.score = 0
 if "attempted" not in st.session_state:
     st.session_state.attempted = 0
+if "quiz_ended" not in st.session_state:
+    st.session_state.quiz_ended = False
 
 
 # Title
@@ -124,35 +127,64 @@ if not filtered_questions:
 elif st.session_state.q_index >= len(filtered_questions):
     st.success("🎉 You’ve completed all available questions.")
     st.info(f"🏁 Final Score: {st.session_state.score} / {st.session_state.attempted}")
+elif st.session_state.quiz_ended:
+    st.markdown("## 🧾 Quiz Summary")
+    st.write(f"✅ **Score:** {st.session_state.score}")
+    st.write(f"📊 **Questions Attempted:** {st.session_state.attempted}")
+    st.write(f"⏭️ **Questions Skipped:** {st.session_state.q_index - st.session_state.attempted}")
+
+    if st.button("🔄 Restart"):
+        st.session_state.shuffled_questions = None
+        st.session_state.q_index = 0
+        st.session_state.submitted = False
+        st.session_state.selected_option = None
+        st.session_state.score = 0
+        st.session_state.attempted = 0
+        st.session_state.quiz_ended = False
+        st.rerun()
 else:
     q = st.session_state.shuffled_questions[st.session_state.q_index]
     st.markdown(f"###### Topic: {q['topic']}")
     # st.markdown(f"###### Difficulty : {q['difficulty']}")
-    st.markdown(f"### {q['question']}")
+    st.markdown(f"### {st.session_state.q_index + 1}. {q['question']}")
 
     options_map = {f"{k}. {v}": k for k, v in q["options"].items()}
     selected_display = st.radio("Select an option:", list(options_map.keys()), key=f"radio_{q['id']}")
     st.session_state.selected_option = options_map[selected_display]
 
-    if st.button("Submit"):
+    col1, col2, col3 = st.columns([1, 1, 1])
+    with col1:
+        if st.button("Submit"):
+            if not st.session_state.submitted:
+                st.session_state.submitted = True
+                st.session_state.attempted += 1
+                if st.session_state.selected_option == q["answer"]:
+                    st.session_state.score += 1
+                    st.success("✅ Correct! " + q["explanation"])
+                else:
+                    correct_text = q["options"][q["answer"]]
+                    st.error(f"❌ Incorrect. Correct answer is {q['answer']}. {correct_text}\n\n{q['explanation']}")
+    
+    with col2:
         if not st.session_state.submitted:
-            st.session_state.submitted = True
-            st.session_state.attempted += 1
-            if st.session_state.selected_option == q["answer"]:
-                st.session_state.score += 1
-                st.success("✅ Correct! " + q["explanation"])
-            else:
-                correct_text = q["options"][q["answer"]]
-                st.error(f"❌ Incorrect. Correct answer is {q['answer']}. {correct_text}\n\n{q['explanation']}")
+            if st.button("⏭️ Skip Question"):
+                st.session_state.q_index += 1
+                st.session_state.submitted = False
+                st.session_state.selected_option = None
+                st.rerun()
+        else:
+            if st.button("Next Question"):
+                st.session_state.q_index += 1
+                st.session_state.submitted = False
+                st.session_state.selected_option = None
+                st.rerun()
+    with col3:
+        if st.button("🛑 End Quiz"):
+            st.session_state.quiz_ended = True
+            st.rerun()
+    
 
     # Show score only AFTER submission
     if st.session_state.submitted:
         st.markdown(f"**📈 Score: {st.session_state.score} / {st.session_state.attempted}**")
-
-    # Show Next only after submission
-    if st.session_state.submitted:
-        if st.button("Next Question"):
-            st.session_state.q_index += 1
-            st.session_state.submitted = False
-            st.session_state.selected_option = None
-            st.rerun()
+        
