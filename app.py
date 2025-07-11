@@ -3,6 +3,28 @@ import json
 import random
 import os
 
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+from datetime import datetime
+
+# Setup
+scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
+creds_dict = json.loads(st.secrets["GOOGLE_SHEETS_CREDS"])
+creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
+# creds = ServiceAccountCredentials.from_json_keyfile_name("credentials.json", scope)
+client = gspread.authorize(creds)
+
+# Open the sheet
+sheet = client.open("DS subscribers").sheet1
+
+# Save function
+def save_subscriber(name, email):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    sheet.append_row([name, email, timestamp])
+
+
+
+
 # Load questions
 @st.cache_data
 def load_data():
@@ -30,7 +52,7 @@ difficulties = sorted(set(q["difficulty"] for q in questions))
 selected_topic = st.sidebar.selectbox("Filter by Topic", ["All"] + topics)
 selected_difficulty = st.sidebar.selectbox("Filter by Difficulty", ["All"] + difficulties)
 
-if st.sidebar.button("🔄 Refresh"):
+if st.sidebar.button("🔄 Restart Quiz"):
     st.session_state.shuffled_questions = None
     st.session_state.q_index = 0
     st.session_state.submitted = False
@@ -68,18 +90,33 @@ if "score" not in st.session_state:
 if "attempted" not in st.session_state:
     st.session_state.attempted = 0
 
-# Title
-st.title("📊 Data Science Questions")
 
-# Restart Button
-if st.button("🔄 Restart Quiz"):
-    st.session_state.shuffled_questions = None
-    st.session_state.q_index = 0
-    st.session_state.submitted = False
-    st.session_state.selected_option = None
-    st.session_state.score = 0
-    st.session_state.attempted = 0
-    st.rerun()
+# Title
+st.title("📊 The Data Science Practice Quiz")
+
+st.markdown("""
+Welcome to the DailyDS — your one-stop app to practice and master **Machine Learning**, **Statistics**, **Deep Learning**, and **Python**.
+""")
+st.write("📬 Subscribe to get 1 question in your inbox every day")
+
+col1, col2, col3 = st.columns([1.5, 2, 1])  # Adjust widths for name, email, button
+
+with col1:
+    name = st.text_input(" ", placeholder="Name", label_visibility="collapsed")
+
+with col2:
+    email = st.text_input(" ", placeholder="Email", label_visibility="collapsed")
+
+with col3:
+    subscribe = st.button("Subscribe")
+
+if subscribe:
+    if name and email:
+        save_subscriber(name, email)
+        st.success(f"Thanks {name}! You're subscribed. ✅")
+        # Save logic here
+    else:
+        st.warning("Please enter both name and email.")
 
 # Main Content
 if not filtered_questions:
